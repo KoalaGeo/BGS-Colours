@@ -101,9 +101,6 @@ html_theme_options = {
 # "<project> v<release> documentation".
 #html_title = None
 
-# A shorter title for the navigation bar.  Default is the same as html_title.
-html_short_title = World Mineral Production
-
 
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
