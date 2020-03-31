@@ -84,6 +84,16 @@ pygments_style = None
 #
 html_theme = 'alabaster'
 
+html_sidebars = {
+    '**': [
+        'about.html',
+        'navigation.html',
+        'relations.html',
+        'searchbox.html',
+        'donate.html',
+    ]
+}
+
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
@@ -92,7 +102,10 @@ html_theme_options = {
     'logo': 'images/logo.jpeg',
     'github_user': 'koalageo',
     'github_repo': 'yearbook-test',
+    
 }
+
+description = 'Latest edition of this annual publication'
 
 # Add any paths that contain custom themes here, relative to this directory.
 #html_theme_path = []
@@ -100,7 +113,6 @@ html_theme_options = {
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
 #html_title = None
-
 
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
