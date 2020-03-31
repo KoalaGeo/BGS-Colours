@@ -89,7 +89,7 @@ html_theme = 'alabaster'
 # documentation.
 #
 html_theme_options = {
-    'logo': 'logo.jpeg',
+    'logo': 'images/logo.jpeg',
     'github_user': 'koalageo',
     'github_repo': 'yearbook-test',
 }
