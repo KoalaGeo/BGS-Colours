@@ -2,7 +2,7 @@ Welcome to World Mineral Production 2014-2018
 ====================================================
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Contents:
 
    preface
