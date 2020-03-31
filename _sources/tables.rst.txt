@@ -2269,7 +2269,7 @@ material in Belgium, Canada and Ukraine.
 (a) Including production of secondary metal
 
 Mine production of gold
--------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In addition to ‘industrial scale’ gold mines around the world, a significant quantity of gold is mined by small scale or artisanal producers, both on a legal and illegal basis. In some countries the quantities involved with artisanal mining can be relatively large. The compilation of reliable data for the quantity produced by artisanal mining in each country is difficult, particularly where the actions are illegal. Artisanal mining can be seasonal, temporary and highly variable, on both geographical and temporal scales. 
 
@@ -2278,53 +2278,53 @@ Where possible, the table attempts to include estimates for artisanal mining of 
 For clarity, additional comments on specific countries are shown below (there may be other countries where artisanal mining also occurs; these comments are not intended to be exhaustive):-
 
 Benin
-~~~~~~
+###############
 
 Artisanal gold mining is known to take place but no reliable estimates are available. It has been estimated to be in the region of 20 30 kg per year, but it could be larger in some years.
 
 Burkina Faso
-~~~~~~~~~~~~~
+##############
 
 Official figures include 306 kg for artisanal mining in 2018; 150 kg in 2017; 235 kg in 2016; 302 kg in 2015; and 208 kg in 2014;. It is believed the actual artisanal production is likely to be higher.
 
 Burma 
-~~~~~~
+###############
 
 the figures shown in the table for 2014 to 2017 are reported and are believed to include artisanal mining.
 
 Cameroon 
-~~~~~~~~~
+###############
 
 all gold mining is currently small scale or artisanal. Available estimates vary widely, from as low as 500 kg per year to something in the order of 1500 kg or 2000 kg per year.
 
 
 Central African Republic
-~~~~~~~~~~~~~~~~~~~~~~~~~
+##############################
 
 artisanal gold mining is known to take place. No reliable estimates are available but it could be in the region of 50-80 kg per year. The figures shown are reported and it is assumed these are artisanal but they may not be fully inclusive in every year.
 
 Columbia 
-~~~~~~~~~
+###############
 
 Artisanal mining, both legal and illegal, is quite extensive within Columbia. The government is taking steps to improve the licencing of legal artisanal mining and also to crack down on illegal activities. However, it is not clear whether the reported figures for gold production include artisanally mined gold. It is also possible that illegally mined material is brought into or out of the country without being recorded.
 
 Congo 
-~~~~~
+###############
 
 all gold mining is believed to be small scale or artisanal and it is believed there are more than 200 locations where this occurs. A nominal estimate of 150 kg per year is shown in the table.
 
 Costa Rica 
-~~~~~~~~~~~
+###############
 
 all gold mining is currently artisanal. The figures in the table are reported by an official source. 
 
 Democratic Republic of Congo 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+##############################
 
 Artisanal mining is quite extensive, the figures shown include estimates for artisanal mining ranging from 4000 to 11000 kg per year.
 
 Equatorial Guinea
-~~~~~~~~~~~~~~~~~~
+##################
 
 Artisanal gold mining is very likely to be taking
 place but no accurate information is available. A nominal estimate of
@@ -2332,7 +2332,7 @@ place but no accurate information is available. A nominal estimate of
 than this.
 
 Ethiopia
-~~~~~~~~~
+###############
 
 small scale and artisanal gold mining is significant, but not
 all of it is illegal because some artisanal miners operate under a
@@ -2344,14 +2344,14 @@ kg and in 2016/17 to 1920 kg. Actual artisanal production could be
 higher.
 
 France (French Guiana)
-~~~~~~~~~~~~~~~~~~~~~~~
+#######################
 
 the table includes an estimate of 5000 kg per
 year for artisanal mining which is not included in the official reported
 figures.
 
 Gabon
-~~~~~~
+###############
 
 attempts to regulate artisanal gold mining are being undertaken
 with gold from artisanal miners being purchased by a government agency
@@ -2360,7 +2360,7 @@ in 2014; 55 kg in 2015; 50 kg in 2016 and 40 kg in 2017. Data for 2018
 is all artisanal.
 
 Ghana
-~~~~~~
+###############
 
 gold produced by artisanal mining is purchased by a state-owned
 marketing organisation but official figures of the quantity vary
@@ -2371,7 +2371,7 @@ table below the following figures are included for artisanal production:
 2017 and 37,324 kg in 2018.
 
 Guinea
-~~~~~~~
+###############
 
 the figures in the table include reported figures for artisanal
 mining. However, actual artisanal production may be higher than those
@@ -2380,7 +2380,7 @@ from artisanal mining within Guinea from that moved across the border
 from Mali or other countries.
 
 Ivory Coast 
-~~~~~~~~~~~~
+###############
 
 efforts are being made within Ivory Coast to rationalise
 artisanal mining as part of the EITI process. Reports suggest that it
@@ -2390,63 +2390,63 @@ reported industrial scale mine output in 2014, 3000 kg in 2015 and 4500
 kg per year for 2016 to 2018.
 
 Kenya
-~~~~~~
+###############
 
 The reported figures shown are believed to include artisanal
 mining but in reality it could be much higher.
 
 Liberia 
-~~~~~~~~~
+###############
 
 official figures are believed to include both the industrial
 mine and artisanal production.
 
 Madagascar
-~~~~~~~~~~~
+###############
 
 estimates of artisanal mining are in the order of 100 kg to
 3000 kg per year.
 
 Mali
-~~~~~
+###############
 
 the figures include an estimate of 5000 kg per year for artisanal
 mining for 2014 and 2015 and 6000 kg per year thereafter, but it is
 likely the real figure varies more than this from year to year.
 
 Panama
-~~~~~~~~
+###############
 
 artisanal mining is known to occur but no reliable estimates
 are available. A nominal estimate of 100 kg per year has been included.
 
 Papua New Guinea
-~~~~~~~~~~~~~~~~~
+##################
 
 Official estimates of “alluvial and small scale” mining are approximately 3500 to 4000 kg per year.
 
 Rwanda
-~~~~~~~
+###############
 
 it is believed that the reported and estimated figures are
 actually gold that originated in neighbouring countries but is not
 recorded in those countries.
 
 South Sudan
-~~~~~~~~~~~~
+###############
 
 artisanal mining is known to occur but reliable estimates
 are difficult to obtain. It has been estimated as approximately 200 kg
 per year.
 
 Tanzania
-~~~~~~~~~
+###############
 
 Artisanal mining is known to occur and in 2015 and 2016 was
 reported as approximately 30 kg per year.
 
 Togo
-~~~~~
+###############
 
 the reported figures are exports of gold which is transiting
 through the country. It is believed the majority of this originates in
@@ -2456,7 +2456,7 @@ for completeness. Some artisanal mining is also believed to occur in
 Togo.
 
 Venezuela
-~~~~~~~~~~
+###############
 
 artisanal mining is believed to be quite extensive and
 increasing. Estimates of quantities vary widely from less than 1000 kg
@@ -2465,14 +2465,14 @@ artisanally mined gold, however, actual output is believed to be larger
 than the reported figures and therefore higher estimates have been used.
 
 Vietnam
-~~~~~~~~
+###############
 
 artisanal mining is believed to be taking place at the site of
 a former industrial mine. No information is available to indicate likely
 scale.
 
 Mine production of gold kilograms
-----------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 +----------------------------+-----------+-----------+-----------+-----------+-----------+
 | Country                    | 2014      | 2015      | 2016      | 2017      | 2018      |
