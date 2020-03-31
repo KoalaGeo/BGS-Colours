@@ -161,6 +161,11 @@ Sand and gravel 51 812 555 102 302 622 \* 100 000 000 \* 100 000 000 \*
 Crushed rock 35 115 670 40 091 390 \* 40 000 000 \* 40 000 000 \*
 40 000 000
 
+Production of primary aggregates (sand and gravel and crushed rock) tonnes (metric)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Country 2014 2015 2016 2017 2018
+
 Slovakia
 
 Sand and gravel 3 863 467 1 199 550 1 306 800 1 743 489 2 096 000
