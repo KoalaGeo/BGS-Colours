@@ -12,8 +12,8 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-import os
-import sys
+# import os
+# import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
 
@@ -79,23 +79,19 @@ pygments_style = None
 
 # -- Options for HTML output -------------------------------------------------
 
-import sphinx_rtd_theme
-
-extensions = [
-    'sphinx_rtd_theme'
-]
-
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'alabaster'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
 html_theme_options = {
-    'style_nav_header_background': '#013171'
+    'logo': 'images/logo.jpeg',
+    'github_user': 'koalageo',
+    'github_repo': 'yearbook-test',
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
@@ -106,11 +102,8 @@ html_theme_options = {
 #html_title = None
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
-# html_short_title = World Mineral Production
+html_short_title = World Mineral Production
 
-# The name of an image file (relative to this directory) to place at the top
-# of the sidebar.
-html_logo = 'images/logo.jpeg'
 
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32

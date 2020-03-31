@@ -1,5 +1,5 @@
-EXPLANATORY NOTES
-=================
+Explanatory Notes
+==================
 
 Coverage
 ----------
