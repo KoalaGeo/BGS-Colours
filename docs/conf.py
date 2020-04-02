@@ -19,7 +19,7 @@ import sys
 
 # -- Project information -----------------------------------------------------
 
-project = 'World Mineral Production'
+project = 'World Mineral Production 2014-2018'
 copyright = '2020, British Geological Survey'
 author = 'British Geological Survey'
 
@@ -102,7 +102,9 @@ html_sidebars = {
 # documentation.
 #
 html_theme_options = {
-    'style_nav_header_background': '#013171'
+    'style_nav_header_background': '#013171',
+    'collapse_navigation': False,
+    'sticky_navigation': True,
 }
 
 description = 'Latest edition of this annual publication'
