@@ -1,7 +1,7 @@
 Statistical Information
 --------------------------
 
-Bauxite
+Bauxite test
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Production (Metric Tonnes) test
