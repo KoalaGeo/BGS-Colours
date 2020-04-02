@@ -4,14 +4,15 @@ Statistical Information
 Bauxite
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Production (Metric Tonnes)
+Production (Metric Tonnes) test
 
 .. raw :: html
 
-    <table id="bauxite-table">
+    <table id="bauxite-table" tabulator-groupBy="region">
         <thead>
-            <tr>
+            <tr>    
                 <th>Country</th>
+                <th>Region</th>
                 <th>2014</th>
                 <th>2015</th>
                 <th>2016</th>
@@ -22,38 +23,43 @@ Production (Metric Tonnes)
         <tbody>
             <tr>
                 <td>Bosnia &amp; Herzegovina</td>
-                <td>605 215</td>
-                <td>787 409</td>
+                <td>Europe</td>
+                <td>605,215</td>
+                <td>787,409</td>
                 <td>738 609</td>
-                <td>740 384</td>
+                <td>740,384</td>
                 <td>760 244</td>
             </tr>
             <tr>
                 <td>Croatia</td>
+                <td>Europe</td>
                 <td>9 150</td>
                 <td>11 900</td>
                 <td>9 780</td>
-                <td>12 215</td>
+                <td>12,215</td>
                 <td>11 780</td>
             </tr>
             <tr>
                 <td>France&nbsp;&nbsp;(a)</td>
+                <td>Europe</td>
                 <td>71 000</td>
-                <td>* 70 000</td>
-                <td>* 70 000</td>
-                <td>* 70 000</td>
-                <td>* 70 000</td>
+                <td>*70000</td>
+                <td>*70 000</td>
+                <td>*70 000</td>
+                <td>*70 000</td>
             </tr>
             <tr>
                 <td>Greece</td>
+                <td>Europe</td>
                 <td>1 876 000</td>
                 <td>1 831 000</td>
                 <td>1 880 000</td>
-                <td>1 927 000</td>
+                <td>1,927,000</td>
                 <td>1 607 000</td>
             </tr>
             <tr>
                 <td>Hungary</td>
+                <td>Europe</td>
                 <td>14 400</td>
                 <td>8 300</td>
                 <td>16 700</td>
@@ -62,14 +68,16 @@ Production (Metric Tonnes)
             </tr>
             <tr>
                 <td>Montenegro</td>
+                <td>Europe</td>
                 <td>155 153</td>
                 <td>50 369</td>
-                <td>* 516 200</td>
+                <td>*516 200</td>
                 <td>927 847</td>
                 <td>468 164</td>
             </tr>
             <tr>
                 <td>Russia</td>
+                <td>Europe</td>
                 <td>5 589 000</td>
                 <td>5 398 000</td>
                 <td>5 432 000</td>
@@ -78,22 +86,16 @@ Production (Metric Tonnes)
             </tr>
             <tr>
                 <td>Turkey</td>
+                <td>Europe</td>
                 <td>1 091 442</td>
                 <td>1 050 000</td>
                 <td>989 200</td>
                 <td>1 719 144</td>
-                <td>* 1 300 000</td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>*1 300 000</td>
             </tr>
             <tr>
                 <td>Ghana</td>
+                <td>Africa</td>
                 <td>798 114</td>
                 <td>1 014 605</td>
                 <td>1 143 676</td>
@@ -102,6 +104,7 @@ Production (Metric Tonnes)
             </tr>
             <tr>
                 <td>Guinea&nbsp;&nbsp;(b)</td>
+                <td>Africa</td>
                 <td>20 288 000</td>
                 <td>20 905 000</td>
                 <td>32 424 000</td>
@@ -110,6 +113,7 @@ Production (Metric Tonnes)
             </tr>
             <tr>
                 <td>Mozambique</td>
+                <td>Africa</td>
                 <td>3 324</td>
                 <td>4 985</td>
                 <td>1 451</td>
@@ -118,6 +122,7 @@ Production (Metric Tonnes)
             </tr>
             <tr>
                 <td>Sierra Leone</td>
+                <td>Africa</td>
                 <td>1 161 705</td>
                 <td>1 334 046</td>
                 <td>1 368 531</td>
@@ -126,6 +131,7 @@ Production (Metric Tonnes)
             </tr>
             <tr>
                 <td>Tanzania</td>
+                <td>Africa</td>
                 <td>25 641</td>
                 <td>205</td>
                 <td>73</td>
@@ -133,15 +139,8 @@ Production (Metric Tonnes)
                 <td>7</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
                 <td>Dominican Republic</td>
+                <td>North &amp; Central America, including the Caribbean</td>
                 <td>1 749 308</td>
                 <td>1 724 162</td>
                 <td>7 318</td>
@@ -150,6 +149,7 @@ Production (Metric Tonnes)
             </tr>
             <tr>
                 <td>Jamaica</td>
+                <td>North &amp; Central America, including the Caribbean</td>
                 <td>9 676 697</td>
                 <td>9 628 824</td>
                 <td>8 540 130</td>
@@ -158,6 +158,7 @@ Production (Metric Tonnes)
             </tr>
             <tr>
                 <td>USA&nbsp;&nbsp;(c)(d)</td>
+                <td>North &amp; Central America, including the Caribbean</td>
                 <td>133 266</td>
                 <td>483 695</td>
                 <td>272 908</td>
@@ -165,15 +166,8 @@ Production (Metric Tonnes)
                 <td>399 712</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
                 <td>Brazil&nbsp;&nbsp;(e)</td>
+                <td>South America</td>
                 <td>36 313 200</td>
                 <td>37 057 000</td>
                 <td>39 244 200</td>
@@ -182,6 +176,7 @@ Production (Metric Tonnes)
             </tr>
             <tr>
                 <td>Colombia</td>
+                <td>South America</td>
                 <td>601</td>
                 <td>861</td>
                 <td>693</td>
@@ -190,6 +185,7 @@ Production (Metric Tonnes)
             </tr>
             <tr>
                 <td>Guyana</td>
+                <td>South America</td>
                 <td>1 563 563</td>
                 <td>1 526 467</td>
                 <td>1 479 090</td>
@@ -198,6 +194,7 @@ Production (Metric Tonnes)
             </tr>
             <tr>
                 <td>Suriname</td>
+                <td>South America</td>
                 <td>2 707 719</td>
                 <td>1 865 148</td>
                 <td>—</td>
@@ -206,6 +203,7 @@ Production (Metric Tonnes)
             </tr>
             <tr>
                 <td>Venezuela</td>
+                <td>South America</td>
                 <td>2 346 160</td>
                 <td>991 810</td>
                 <td>340 000</td>
@@ -213,39 +211,35 @@ Production (Metric Tonnes)
                 <td>92 000</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
                 <td>China</td>
+                <td>Asia</td>
                 <td>59 212 401</td>
                 <td>60 787 599</td>
                 <td>66 157 689</td>
-                <td>* 69 000 000</td>
-                <td>* 62 000 000</td>
+                <td>*69 000 000</td>
+                <td>*62 000 000</td>
             </tr>
             <tr>
                 <td>India&nbsp;&nbsp;(f)</td>
+                <td>Asia</td>
                 <td>22 493 671</td>
                 <td>28 123 789</td>
                 <td>24 745 487</td>
                 <td>22 312 681</td>
-                <td>* 23 840 000</td>
+                <td>*23 840 000</td>
             </tr>
             <tr>
                 <td>Indonesia</td>
+                <td>Asia</td>
                 <td>2 556 429</td>
-                <td>* 611 000</td>
-                <td>* 1 485 000</td>
-                <td>* 4 200 000</td>
-                <td>* 10 300 000</td>
+                <td>*611 000</td>
+                <td>*1 485 000</td>
+                <td>*4 200 000</td>
+                <td>*10 300 000</td>
             </tr>
             <tr>
                 <td>Iran&nbsp;&nbsp;(g)</td>
+                <td>Asia</td>
                 <td>748 297</td>
                 <td>840 681</td>
                 <td>868 255</td>
@@ -254,6 +248,7 @@ Production (Metric Tonnes)
             </tr>
             <tr>
                 <td>Kazakhstan</td>
+                <td>Asia</td>
                 <td>4 515 600</td>
                 <td>4 682 600</td>
                 <td>4 801 300</td>
@@ -262,14 +257,16 @@ Production (Metric Tonnes)
             </tr>
             <tr>
                 <td>Malaysia</td>
-                <td>(h)* 3 500 000</td>
-                <td>(h)* 27 700 000</td>
-                <td>(h)* 6 670 000</td>
-                <td>(h)* 810 000</td>
+                <td>Asia</td>
+                <td>(h)*3 500 000</td>
+                <td>(h)*27 700 000</td>
+                <td>(h)*6 670 000</td>
+                <td>(h)*810 000</td>
                 <td>589 684</td>
             </tr>
             <tr>
                 <td>Pakistan&nbsp;&nbsp;(i)</td>
+                <td>Asia</td>
                 <td>31 156</td>
                 <td>24 689</td>
                 <td>57 024</td>
@@ -278,6 +275,7 @@ Production (Metric Tonnes)
             </tr>
             <tr>
                 <td>Saudi Arabia</td>
+                <td>Asia</td>
                 <td>2 076 000</td>
                 <td>3 022 000</td>
                 <td>4 768 000</td>
@@ -286,22 +284,16 @@ Production (Metric Tonnes)
             </tr>
             <tr>
                 <td>Vietnam</td>
+                <td>Asia</td>
                 <td>1 100 000</td>
-                <td>* 1 100 000</td>
-                <td>* 1 400 000</td>
-                <td>* 2 700 000</td>
+                <td>*1 100 000</td>
+                <td>*1 400 000</td>
+                <td>*2 700 000</td>
                 <td>3 569 700</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
                 <td>Australia</td>
+                <td>Australasia, incl Pacific Islands</td>
                 <td>78 630 996</td>
                 <td>80 909 261</td>
                 <td>83 517 148</td>
@@ -310,37 +302,32 @@ Production (Metric Tonnes)
             </tr>
             <tr>
                 <td>Fiji</td>
+                <td>Australasia, incl Pacific Islands</td>
                 <td>489 476</td>
                 <td>120 726</td>
                 <td>59 500</td>
-                <td>* 60 000</td>
-                <td>* 58 000</td>
+                <td>*60 000</td>
+                <td>*58 000</td>
             </tr>
             <tr>
                 <td>Solomon Islands</td>
-                <td>* 40</td>
-                <td>* 292 000</td>
-                <td>* 240 000</td>
-                <td>* 1 550 000</td>
-                <td>* 1 600 000</td>
+                <td>Australasia, incl Pacific Islands</td>
+                <td>*40</td>
+                <td>*292 000</td>
+                <td>*240 000</td>
+                <td>*1 550 000</td>
+                <td>*1 600 000</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>Total</td>
+                <td>World</td>
+                <td>261 500000</td>
+                <td>294 000000</td>
+                <td>289 200000</td>
+                <td>314400000</td>
+                <td>326 000000</td>
             </tr>
-            <tr>
-                <td>World total</td>
-                <td>261 500 000</td>
-                <td>294 000 000</td>
-                <td>289 200 000</td>
-                <td>314 400 000</td>
-                <td>326 000 000</td>
-            </tr>
-        </tbody>
+        </tbody>    
     </table>
 
 Note(s)
