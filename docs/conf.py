@@ -117,7 +117,7 @@ description = 'Latest edition of this annual publication'
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
-html_favicon = 'images/favicon.ico'
+# html_favicon = 'images/favicon.ico'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -133,6 +133,19 @@ html_static_path = ['_static']
 # 'searchbox.html']``.
 #
 # html_sidebars = {}
+
+# These paths are either relative to html_static_path
+# or fully qualified paths (eg. https://...)
+
+html_css_files = [
+    'css/tabulator.min.css',
+]
+
+
+html_js_files = [
+    'js/tabulator.min.js',
+    'js/custom.js',
+]
 
 
 # -- Options for HTMLHelp output ---------------------------------------------
