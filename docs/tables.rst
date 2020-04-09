@@ -21,7 +21,7 @@ Table
 
 .. raw :: html
 
-    <table id="superficial-table" tabulator-groupBy="Feature">
+    <table id="superficial-table" tabulator-groupBy="feature">
       <thead>
           <tr>
             <th>Feature</th>
@@ -332,7 +332,7 @@ Table
 
 .. raw :: html
 
-    <table id="bedrock-table" tabulator-groupBy="Feature">
+    <table id="bedrock-table" tabulator-groupBy="feature">
       <thead>
           <tr>
             <th>Feature</th>
