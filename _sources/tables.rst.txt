@@ -1,7 +1,24 @@
 BGS 625k Colours
 --------------------------
 
-Colour scheme.....
+SLD Files
+~~~~~~~~~~~
+
+SLD files are available to download:
+
+    - Superficial_V5_
+    - Superficial_V7b_
+    - Superficial_Glacial_v7_
+    - Bedrock_v5_
+    - Dykes_v5_
+    - Faults_v5_
+    
+.. Superficial_v5_: https://koalageo.github.io/BGS-Colours/_static/UK 625k v5 Superficial Geology.sld
+.. Superficial_Glacial_v5_: https://koalageo.github.io/BGS-Colours/_static/UK 625k v7 Superficial Glacial Limits.sld
+.. Superficial_v5_: https://koalageo.github.io/BGS-Colours/_static/UK 625k v7 Superficial Geology.sld
+.. Bedrock_v5_: https://koalageo.github.io/BGS-Colours/_static/UK 625k v5 Bedrock Geology.sld
+.. Dykes_v5_: https://koalageo.github.io/BGS-Colours/_static/UK 625k v5 Dykes Geology.sld
+.. Faults_v5_: https://koalageo.github.io/BGS-Colours/_static/UK 625k v5 Fault Geology.sld
 
 Superficial Geology
 ~~~~~~~~~~~~~~~~~~~~
