@@ -1,12 +1,26 @@
 BGS 625k Colours
 --------------------------
 
+SLD Files
+~~~~~~~~~~
+
+SLD files are available to download:
+
+    - Superficial
+    - Bedrock
+    - Dykes
+    - Faults
+    
+Table
+~~~~~~
+
 Superficial Geology
 ~~~~~~~~~~~~~~~~~~~~
 
 .. raw :: html
 
     <table id="superficial-table" tabulator-groupBy="Feature Name">
+      <thead>
       <tr>
         <th>Feature Name</th>
         <th>LEX_D</th>
@@ -18,6 +32,8 @@ Superficial Geology
         <th>stroke-width</th>
         <th>stroke-linejoin</th>
       </tr>
+      </thead>
+      <tbody>
       <tr>
         <td>BGS_625k_V5_SUPERFICIAL_Geology_Polygons</td>
         <td></td>
@@ -293,6 +309,7 @@ Superficial Geology
         <td>1</td>
         <td>bevel</td>
       </tr>
+      </tbody>
     </table>
 
 Bedrock & Dykes
@@ -301,6 +318,7 @@ Bedrock & Dykes
 .. raw :: html
 
     <table id="bedrock-table" tabulator-groupBy="Feature Name">
+      <thead>
       <tr>
         <th>Feature Name</th>
         <th>LEX_RCS_D</th>
@@ -308,6 +326,8 @@ Bedrock & Dykes
         <th>Hex</th>
         <th>SVG Parameter</th>
       </tr>
+      </thead>
+      <tbody>
       <tr>
         <td>625k_V5_BEDROCK_Geology_Polygons</td>
         <td>APPIN GROUP - GRAPHITIC PELITE, CALCAREOUS PELITE, CALCSILICATE-ROCK AND PSAMMITE</td>
@@ -2128,6 +2148,7 @@ Bedrock & Dykes
         <td>#b033ff</td>
         <td>fill</td>
       </tr>
+      </tbody>
     </table>
 
 Faults
@@ -2198,4 +2219,50 @@ Faults
       </tr>
     </table>
 
+BGS 50k Colours
+--------------------------
 
+SLD Files
+~~~~~~~~~~
+
+SLD files are available to download:
+
+    - Superficial
+    - Bedrock
+    - Dykes
+    - Faults
+    
+Table
+~~~~~~
+
+BGS 25k Colours
+--------------------------
+
+SLD Files
+~~~~~~~~~~
+
+SLD files are available to download:
+
+    - Superficial
+    - Bedrock
+    - Dykes
+    - Faults
+    
+Table
+~~~~~~
+
+BGS 10k Colours
+--------------------------
+
+SLD Files
+~~~~~~~~~~
+
+SLD files are available to download:
+
+    - Superficial
+    - Bedrock
+    - Dykes
+    - Faults
+    
+Table
+~~~~~~
