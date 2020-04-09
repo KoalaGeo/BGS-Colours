@@ -1,1 +1,1 @@
-# BGS WMP Test
+# BGS Map Colours
