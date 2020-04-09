@@ -23,11 +23,6 @@ SLD files are available to download:
 Superficial Geology
 ~~~~~~~~~~~~~~~~~~~~
 
-SLD Files
-##########
-
-SLD files are available to download:
-  
 Table
 ######
 
@@ -330,11 +325,6 @@ Table
 Bedrock & Dykes
 ~~~~~~~~~~~~~~~~~
 
-SLD Files
-##########
-
-SLD files are available to download:
-  
 Table
 ######
 
@@ -2177,11 +2167,6 @@ Table
 Faults
 ~~~~~~~
 
-SLD Files
-##########
-
-SLD files are available to download:
-
 Table
 ######
 
@@ -2253,11 +2238,8 @@ Table
 BGS 50k Colours
 --------------------------
 
-Superficial
-~~~~~~~~~~~~
-
 SLD Files
-##########
+~~~~~~~~~~~
 
 SLD files are available to download:
 
@@ -2266,17 +2248,18 @@ SLD files are available to download:
     - Dykes
     - Faults
     
+
+Superficial
+~~~~~~~~~~~~
+
 Table
 ######
 
 BGS 25k Colours
 --------------------------
 
-Superficial
-~~~~~~~~~~~~
-
 SLD Files
-##########
+~~~~~~~~~~~
 
 SLD files are available to download:
 
@@ -2285,17 +2268,18 @@ SLD files are available to download:
     - Dykes
     - Faults
     
+
+Superficial
+~~~~~~~~~~~~
+
 Table
 ######
 
 BGS 10k Colours
 --------------------------
 
-Superficial
-~~~~~~~~~~~~
-
 SLD Files
-##########
+~~~~~~~~~~~
 
 SLD files are available to download:
 
@@ -2304,5 +2288,9 @@ SLD files are available to download:
     - Dykes
     - Faults
     
+
+Superficial
+~~~~~~~~~~~~
+
 Table
 ######
