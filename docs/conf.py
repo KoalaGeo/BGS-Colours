@@ -128,6 +128,8 @@ html_logo = '_static/images/bgslrwo.png'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+html_style = 'css/bgstheme.css' 
+
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
 #
