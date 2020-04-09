@@ -19,7 +19,7 @@ import sys
 
 # -- Project information -----------------------------------------------------
 
-project = 'World Mineral Production 2014-2018'
+project = 'DigiMap Symbology'
 copyright = '2020, British Geological Survey'
 author = 'British Geological Survey'
 
@@ -107,8 +107,6 @@ html_theme_options = {
     'sticky_navigation': True,
 }
 
-description = 'Latest edition of this annual publication'
-
 # Add any paths that contain custom themes here, relative to this directory.
 #html_theme_path = []
 
@@ -157,7 +155,7 @@ html_js_files = [
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'WorldMineralProductiondoc'
+htmlhelp_basename = 'DigiMap Symbology'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -184,7 +182,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'WorldMineralProduction.tex', 'World Mineral Production Documentation',
+    (master_doc, 'DigiMap Symbology.tex', 'DigiMap Symbology Documentation',
      'British Geological Survey', 'manual'),
 ]
 
@@ -194,7 +192,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'worldmineralproduction', 'World Mineral Production Documentation',
+    (master_doc, 'DigiMap Symbology', 'DigiMap Symbology Documentation',
      [author], 1)
 ]
 
@@ -205,8 +203,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'WorldMineralProduction', 'World Mineral Production Documentation',
-     author, 'WorldMineralProduction', 'One line description of project.',
+    (master_doc, 'DigiMap Symbology', 'DigiMap Symbology Documentation',
+     author, 'DigiMap Symbology', 'DigiMap Symbology.',
      'Miscellaneous'),
 ]
 
