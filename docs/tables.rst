@@ -6,7 +6,7 @@ Superficial Geology
 
 .. raw :: html
 
-    <table>
+    <table id="superficial-table" tabulator-groupBy="Feature Name">
       <tr>
         <th>Feature Name</th>
         <th>LEX_D</th>
@@ -300,7 +300,7 @@ Bedrock & Dykes
 
 .. raw :: html
 
-    <table>
+    <table id="bedrock-table" tabulator-groupBy="Feature Name">
       <tr>
         <th>Feature Name</th>
         <th>LEX_RCS_D</th>
@@ -2135,7 +2135,7 @@ Faults
 
 .. raw :: html
 
-    <table>
+    <table id="faults-table">
       <tr>
         <th>Feature Name</th>
         <th>Feature Description</th>
