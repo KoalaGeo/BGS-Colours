@@ -21,10 +21,10 @@ Table
 
 .. raw :: html
 
-    <table id="superficial-table" tabulator-groupBy="Feature Name">
+    <table id="superficial-table" tabulator-groupBy="Feature">
       <thead>
           <tr>
-            <th>Feature Name</th>
+            <th>Feature</th>
             <th>LEX_D</th>
             <th>LEX</th>
             <th>LEX-RCS</th>
@@ -332,10 +332,10 @@ Table
 
 .. raw :: html
 
-    <table id="bedrock-table" tabulator-groupBy="Feature Name">
+    <table id="bedrock-table" tabulator-groupBy="Feature">
       <thead>
           <tr>
-            <th>Feature Name</th>
+            <th>Feature</th>
             <th>LEX_RCS_D</th>
             <th>LEX_RCS_I</th>
             <th>Hex</th>
