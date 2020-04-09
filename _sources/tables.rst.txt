@@ -10,12 +10,7 @@ SLD Files
 ##########
 
 SLD files are available to download:
-
-    - Superficial
-    - Bedrock
-    - Dykes
-    - Faults
-    
+  
 Table
 ######
 
@@ -314,6 +309,7 @@ Table
       </tbody>
     </table>
 
+
 Bedrock & Dykes
 ~~~~~~~~~~~~~~~~~
 
@@ -321,12 +317,7 @@ SLD Files
 ##########
 
 SLD files are available to download:
-
-    - Superficial
-    - Bedrock
-    - Dykes
-    - Faults
-    
+  
 Table
 ######
 
@@ -2174,11 +2165,6 @@ SLD Files
 
 SLD files are available to download:
 
-    - Superficial
-    - Bedrock
-    - Dykes
-    - Faults
-    
 Table
 ######
 
