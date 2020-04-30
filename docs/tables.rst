@@ -2,7 +2,7 @@ BGS 625k Colours
 --------------------------
 
 SLD Files
-~~~~~~~~~~~
+~~~~~~~~~~~~
 
 SLD files are available to download:
 
@@ -13,12 +13,12 @@ SLD files are available to download:
     - Dykes_v5_
     - Faults_v5_
     
-.. Superficial_v5_: https://koalageo.github.io/BGS-Colours/_static/UK 625k v5 Superficial Geology.sld
-.. Superficial_Glacial_v5_: https://koalageo.github.io/BGS-Colours/_static/UK 625k v7 Superficial Glacial Limits.sld
-.. Superficial_v5_: https://koalageo.github.io/BGS-Colours/_static/UK 625k v7 Superficial Geology.sld
-.. Bedrock_v5_: https://koalageo.github.io/BGS-Colours/_static/UK 625k v5 Bedrock Geology.sld
-.. Dykes_v5_: https://koalageo.github.io/BGS-Colours/_static/UK 625k v5 Dykes Geology.sld
-.. Faults_v5_: https://koalageo.github.io/BGS-Colours/_static/UK 625k v5 Fault Geology.sld
+.. _Superficial_v5: https://koalageo.github.io/BGS-Colours/_static/UK625kv5SuperficialGeology.sld
+.. _Superficial_Glacial_v7: https://koalageo.github.io/BGS-Colours/_static/UK625kv7SuperficialGlacialLimits.sld
+.. _Superficial_v7b: https://koalageo.github.io/BGS-Colours/_static/UK625kv7SuperficialGeology.sld
+.. _Bedrock_v5: https://koalageo.github.io/BGS-Colours/_static/UK625kv5BedrockGeology.sld
+.. _Dykes_v5: https://koalageo.github.io/BGS-Colours/_static/UK625kv5DykesGeology.sld
+.. _Faults_v5: https://koalageo.github.io/BGS-Colours/_static/UK625kv5FaultGeology.sld
 
 Superficial Geology
 ~~~~~~~~~~~~~~~~~~~~
@@ -33,8 +33,8 @@ Table
           <tr>
             <th>Feature</th>
             <th>LEX_D</th>
-            <th>LEX</th>
-            <th>LEX-RCS</th>
+            <th tabulator-headerFilter="input">LEX</th>
+            <th tabulator-headerFilter="input">LEX-RCS</th>
             <th>Hex</th>
             <th>SVG Parameter</th>
             <th>Stroke Hex Colour</th>
@@ -326,7 +326,7 @@ Bedrock & Dykes
 ~~~~~~~~~~~~~~~~~
 
 Table
-######
+#######
 
 .. raw :: html
 
@@ -334,8 +334,8 @@ Table
       <thead>
           <tr>
             <th>Feature</th>
-            <th>LEX_RCS_D</th>
-            <th>LEX_RCS_I</th>
+            <th tabulator-headerFilter="input">LEX_RCS_D</th>
+            <th tabulator-headerFilter="input">LEX_RCS_I</th>
             <th>Hex</th>
             <th>SVG Parameter</th>
           </tr>

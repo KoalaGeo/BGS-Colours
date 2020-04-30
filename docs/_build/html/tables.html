@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Statistical Information &mdash; World Mineral Production 2014-2018 2014-2018 documentation</title>
+  <title>BGS 625k Colours &mdash; DigiMap Symbology 2014-2018 documentation</title>
   
 
   
@@ -33,12 +33,11 @@
     
 
   
-  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/bgstheme.css" type="text/css" />
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-  <link rel="stylesheet" href="_static/css/tabulator.min.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/tabulator_midnight.min.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Appendix 1" href="appendix.html" />
     <link rel="prev" title="Explanatory Notes" href="title.html" /> 
 </head>
 
@@ -53,7 +52,7 @@
           
 
           
-            <a href="index.html" class="icon icon-home"> World Mineral Production 2014-2018
+            <a href="index.html" class="icon icon-home"> DigiMap Symbology
           
 
           
@@ -88,65 +87,45 @@
             
               <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="title.html">Explanatory Notes</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="title.html#coverage">Coverage</a></li>
-<li class="toctree-l2"><a class="reference internal" href="title.html#arrangement-of-countries">Arrangement of Countries</a></li>
-<li class="toctree-l2"><a class="reference internal" href="title.html#metals">Metals</a></li>
-<li class="toctree-l2"><a class="reference internal" href="title.html#world-totals">World totals</a></li>
-<li class="toctree-l2"><a class="reference internal" href="title.html#exclusion-of-warranty">Exclusion of Warranty</a></li>
-<li class="toctree-l2"><a class="reference internal" href="title.html#acknowledgements">Acknowledgements</a></li>
-<li class="toctree-l2"><a class="reference internal" href="title.html#units">Units</a></li>
-<li class="toctree-l2"><a class="reference internal" href="title.html#symbols">Symbols</a></li>
+<li class="toctree-l1"><a class="reference internal" href="title.html">Explanatory Notes</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">BGS 625k Colours</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#sld-files">SLD Files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#superficial-geology">Superficial Geology</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#table">Table</a></li>
 </ul>
 </li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Statistical Information</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#bauxite">Bauxite</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#alumina">Alumina</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#mine-production-of-gold">Mine production of gold</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#benin">Benin</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#burkina-faso">Burkina Faso</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#burma">Burma</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#cameroon">Cameroon</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#central-african-republic">Central African Republic</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#columbia">Columbia</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#congo">Congo</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#costa-rica">Costa Rica</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#democratic-republic-of-congo">Democratic Republic of Congo</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#equatorial-guinea">Equatorial Guinea</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#ethiopia">Ethiopia</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#france-french-guiana">France (French Guiana)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#gabon">Gabon</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#ghana">Ghana</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#guinea">Guinea</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#ivory-coast">Ivory Coast</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#kenya">Kenya</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#liberia">Liberia</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#madagascar">Madagascar</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#mali">Mali</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#panama">Panama</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#papua-new-guinea">Papua New Guinea</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#rwanda">Rwanda</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#south-sudan">South Sudan</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#tanzania">Tanzania</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#togo">Togo</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#venezuela">Venezuela</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#vietnam">Vietnam</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#bedrock-dykes">Bedrock &amp; Dykes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id1">Table</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#mine-production-of-gold-kilograms">Mine production of gold kilograms</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="appendix.html">Appendix 1</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="appendix.html#tables-relating-to-europe-only">Tables relating to Europe only</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="appendix.html#production-of-primary-aggregates-sand-and-gravel-and-crushed-rock-tonnes-metric">Production of primary aggregates (sand and gravel and crushed rock) tonnes (metric)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="appendix.html#production-of-cement-clinker-tonnes-metric">Production of cement clinker tonnes (metric)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="appendix.html#production-of-finished-cement-tonnes-metric">Production of finished cement tonnes (metric)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#faults">Faults</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id2">Table</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="appendix.html#appendix-2">Appendix 2</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="appendix.html#further-acknowledgments">Further Acknowledgments</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#bgs-50k-colours">BGS 50k Colours</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id3">SLD Files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#superficial">Superficial</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id4">Table</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#bgs-25k-colours">BGS 25k Colours</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id5">SLD Files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id6">Superficial</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id7">Table</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="#bgs-10k-colours">BGS 10k Colours</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id8">SLD Files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id9">Superficial</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id10">Table</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -163,7 +142,7 @@
       <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="index.html">World Mineral Production 2014-2018</a>
+          <a href="index.html">DigiMap Symbology</a>
         
       </nav>
 
@@ -194,7 +173,7 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>Statistical Information</li>
+      <li>BGS 625k Colours</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -213,1964 +192,2286 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="statistical-information">
-<h1>Statistical Information<a class="headerlink" href="#statistical-information" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="bauxite">
-<h2>Bauxite<a class="headerlink" href="#bauxite" title="Permalink to this headline">¶</a></h2>
-<p>Production (Metric Tonnes) test</p>
-<table id="bauxite-table" tabulator-groupBy="region">
-    <thead>
-        <tr>
-            <th>Country</th>
-            <th>Region</th>
-            <th>2014</th>
-            <th>2015</th>
-            <th>2016</th>
-            <th>2017</th>
-            <th>2018</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Bosnia &amp; Herzegovina</td>
-            <td>Europe</td>
-            <td>605,215</td>
-            <td>787,409</td>
-            <td>738 609</td>
-            <td>740,384</td>
-            <td>760 244</td>
-        </tr>
-        <tr>
-            <td>Croatia</td>
-            <td>Europe</td>
-            <td>9 150</td>
-            <td>11 900</td>
-            <td>9 780</td>
-            <td>12,215</td>
-            <td>11 780</td>
-        </tr>
-        <tr>
-            <td>France&nbsp;&nbsp;(a)</td>
-            <td>Europe</td>
-            <td>71 000</td>
-            <td>*70000</td>
-            <td>*70 000</td>
-            <td>*70 000</td>
-            <td>*70 000</td>
-        </tr>
-        <tr>
-            <td>Greece</td>
-            <td>Europe</td>
-            <td>1 876 000</td>
-            <td>1 831 000</td>
-            <td>1 880 000</td>
-            <td>1,927,000</td>
-            <td>1 607 000</td>
-        </tr>
-        <tr>
-            <td>Hungary</td>
-            <td>Europe</td>
-            <td>14 400</td>
-            <td>8 300</td>
-            <td>16 700</td>
-            <td>1 300</td>
-            <td>4 200</td>
-        </tr>
-        <tr>
-            <td>Montenegro</td>
-            <td>Europe</td>
-            <td>155 153</td>
-            <td>50 369</td>
-            <td>*516 200</td>
-            <td>927 847</td>
-            <td>468 164</td>
-        </tr>
-        <tr>
-            <td>Russia</td>
-            <td>Europe</td>
-            <td>5 589 000</td>
-            <td>5 398 000</td>
-            <td>5 432 000</td>
-            <td>5 523 000</td>
-            <td>5 651 000</td>
-        </tr>
-        <tr>
-            <td>Turkey</td>
-            <td>Europe</td>
-            <td>1 091 442</td>
-            <td>1 050 000</td>
-            <td>989 200</td>
-            <td>1 719 144</td>
-            <td>*1 300 000</td>
-        </tr>
-        <tr>
-            <td>Ghana</td>
-            <td>Africa</td>
-            <td>798 114</td>
-            <td>1 014 605</td>
-            <td>1 143 676</td>
-            <td>1 476 966</td>
-            <td>1 011 302</td>
-        </tr>
-        <tr>
-            <td>Guinea&nbsp;&nbsp;(b)</td>
-            <td>Africa</td>
-            <td>20 288 000</td>
-            <td>20 905 000</td>
-            <td>32 424 000</td>
-            <td>51 701 000</td>
-            <td>59 573 707</td>
-        </tr>
-        <tr>
-            <td>Mozambique</td>
-            <td>Africa</td>
-            <td>3 324</td>
-            <td>4 985</td>
-            <td>1 451</td>
-            <td>3 182</td>
-            <td>9 912</td>
-        </tr>
-        <tr>
-            <td>Sierra Leone</td>
-            <td>Africa</td>
-            <td>1 161 705</td>
-            <td>1 334 046</td>
-            <td>1 368 531</td>
-            <td>1 787 716</td>
-            <td>1 938 461</td>
-        </tr>
-        <tr>
-            <td>Tanzania</td>
-            <td>Africa</td>
-            <td>25 641</td>
-            <td>205</td>
-            <td>73</td>
-            <td>12</td>
-            <td>7</td>
-        </tr>
-        <tr>
-            <td>Dominican Republic</td>
-            <td>North &amp; Central America, including the Caribbean</td>
-            <td>1 749 308</td>
-            <td>1 724 162</td>
-            <td>7 318</td>
-            <td>—</td>
-            <td>—</td>
-        </tr>
-        <tr>
-            <td>Jamaica</td>
-            <td>North &amp; Central America, including the Caribbean</td>
-            <td>9 676 697</td>
-            <td>9 628 824</td>
-            <td>8 540 130</td>
-            <td>8 244 628</td>
-            <td>9 962 672</td>
-        </tr>
-        <tr>
-            <td>USA&nbsp;&nbsp;(c)(d)</td>
-            <td>North &amp; Central America, including the Caribbean</td>
-            <td>133 266</td>
-            <td>483 695</td>
-            <td>272 908</td>
-            <td>352 096</td>
-            <td>399 712</td>
-        </tr>
-        <tr>
-            <td>Brazil&nbsp;&nbsp;(e)</td>
-            <td>South America</td>
-            <td>36 313 200</td>
-            <td>37 057 000</td>
-            <td>39 244 200</td>
-            <td>38 072 100</td>
-            <td>32 006 900</td>
-        </tr>
-        <tr>
-            <td>Colombia</td>
-            <td>South America</td>
-            <td>601</td>
-            <td>861</td>
-            <td>693</td>
-            <td>2 400</td>
-            <td>9 043</td>
-        </tr>
-        <tr>
-            <td>Guyana</td>
-            <td>South America</td>
-            <td>1 563 563</td>
-            <td>1 526 467</td>
-            <td>1 479 090</td>
-            <td>1 459 223</td>
-            <td>1 924 558</td>
-        </tr>
-        <tr>
-            <td>Suriname</td>
-            <td>South America</td>
-            <td>2 707 719</td>
-            <td>1 865 148</td>
-            <td>—</td>
-            <td>—</td>
-            <td>—</td>
-        </tr>
-        <tr>
-            <td>Venezuela</td>
-            <td>South America</td>
-            <td>2 346 160</td>
-            <td>991 810</td>
-            <td>340 000</td>
-            <td>242 099</td>
-            <td>92 000</td>
-        </tr>
-        <tr>
-            <td>China</td>
-            <td>Asia</td>
-            <td>59 212 401</td>
-            <td>60 787 599</td>
-            <td>66 157 689</td>
-            <td>*69 000 000</td>
-            <td>*62 000 000</td>
-        </tr>
-        <tr>
-            <td>India&nbsp;&nbsp;(f)</td>
-            <td>Asia</td>
-            <td>22 493 671</td>
-            <td>28 123 789</td>
-            <td>24 745 487</td>
-            <td>22 312 681</td>
-            <td>*23 840 000</td>
-        </tr>
-        <tr>
-            <td>Indonesia</td>
-            <td>Asia</td>
-            <td>2 556 429</td>
-            <td>*611 000</td>
-            <td>*1 485 000</td>
-            <td>*4 200 000</td>
-            <td>*10 300 000</td>
-        </tr>
-        <tr>
-            <td>Iran&nbsp;&nbsp;(g)</td>
-            <td>Asia</td>
-            <td>748 297</td>
-            <td>840 681</td>
-            <td>868 255</td>
-            <td>1 046 634</td>
-            <td>719 537</td>
-        </tr>
-        <tr>
-            <td>Kazakhstan</td>
-            <td>Asia</td>
-            <td>4 515 600</td>
-            <td>4 682 600</td>
-            <td>4 801 300</td>
-            <td>4 846 100</td>
-            <td>6 104 200</td>
-        </tr>
-        <tr>
-            <td>Malaysia</td>
-            <td>Asia</td>
-            <td>(h)*3 500 000</td>
-            <td>(h)*27 700 000</td>
-            <td>(h)*6 670 000</td>
-            <td>(h)*810 000</td>
-            <td>589 684</td>
-        </tr>
-        <tr>
-            <td>Pakistan&nbsp;&nbsp;(i)</td>
-            <td>Asia</td>
-            <td>31 156</td>
-            <td>24 689</td>
-            <td>57 024</td>
-            <td>75 375</td>
-            <td>146 045</td>
-        </tr>
-        <tr>
-            <td>Saudi Arabia</td>
-            <td>Asia</td>
-            <td>2 076 000</td>
-            <td>3 022 000</td>
-            <td>4 768 000</td>
-            <td>4 117 000</td>
-            <td>4 323 000</td>
-        </tr>
-        <tr>
-            <td>Vietnam</td>
-            <td>Asia</td>
-            <td>1 100 000</td>
-            <td>*1 100 000</td>
-            <td>*1 400 000</td>
-            <td>*2 700 000</td>
-            <td>3 569 700</td>
-        </tr>
-        <tr>
-            <td>Australia</td>
-            <td>Australasia, incl Pacific Islands</td>
-            <td>78 630 996</td>
-            <td>80 909 261</td>
-            <td>83 517 148</td>
-            <td>89 420 589</td>
-            <td>95 947 498</td>
-        </tr>
-        <tr>
-            <td>Fiji</td>
-            <td>Australasia, incl Pacific Islands</td>
-            <td>489 476</td>
-            <td>120 726</td>
-            <td>59 500</td>
-            <td>*60 000</td>
-            <td>*58 000</td>
-        </tr>
-        <tr>
-            <td>Solomon Islands</td>
-            <td>Australasia, incl Pacific Islands</td>
-            <td>*40</td>
-            <td>*292 000</td>
-            <td>*240 000</td>
-            <td>*1 550 000</td>
-            <td>*1 600 000</td>
-        </tr>
-        <tr>
-            <td>Total</td>
-            <td>World</td>
-            <td>261 500000</td>
-            <td>294 000000</td>
-            <td>289 200000</td>
-            <td>314400000</td>
-            <td>326 000000</td>
-        </tr>
-    </tbody>
-</table><p>Note(s)</p>
-<ol class="arabic simple">
-<li>This table includes production of refractory bauxite.</li>
-</ol>
-<p>(2) In addition to the countries listed, some bauxite continues to be
-produced in Mexico but it is all used as construction aggregates and
-figures are not reported.</p>
-<ol class="loweralpha simple">
-<li>For non-metallurgical uses</li>
-<li>No adjustment has been made for moisture content</li>
-<li>Data for Alabama only</li>
-<li>Years ended 30 September of that stated</li>
-<li>Including beneficiated and direct shipping ore</li>
-<li>Years ended 31 March following that stated</li>
-<li>Years ended 20 March following that stated</li>
-<li>Conservative BGS estimate based on reported exports</li>
-<li>Years ended 30 June of that stated</li>
-</ol>
+  <div class="section" id="bgs-625k-colours">
+<h1>BGS 625k Colours<a class="headerlink" href="#bgs-625k-colours" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="sld-files">
+<h2>SLD Files<a class="headerlink" href="#sld-files" title="Permalink to this headline">¶</a></h2>
+<p>SLD files are available to download:</p>
+<blockquote>
+<div><ul class="simple">
+<li><a class="reference external" href="https://koalageo.github.io/BGS-Colours/_static/UK625kv5SuperficialGeology.sld">Superficial_V5</a></li>
+<li><a class="reference external" href="https://koalageo.github.io/BGS-Colours/_static/UK625kv7SuperficialGeology.sld">Superficial_V7b</a></li>
+<li><a class="reference external" href="https://koalageo.github.io/BGS-Colours/_static/UK625kv7SuperficialGlacialLimits.sld">Superficial_Glacial_v7</a></li>
+<li><a class="reference external" href="https://koalageo.github.io/BGS-Colours/_static/UK625kv5BedrockGeology.sld">Bedrock_v5</a></li>
+<li><a class="reference external" href="https://koalageo.github.io/BGS-Colours/_static/UK625kv5DykesGeology.sld">Dykes_v5</a></li>
+<li><a class="reference external" href="https://koalageo.github.io/BGS-Colours/_static/UK625kv5FaultGeology.sld">Faults_v5</a></li>
+</ul>
+</div></blockquote>
 </div>
-<div class="section" id="alumina">
-<h2>Alumina<a class="headerlink" href="#alumina" title="Permalink to this headline">¶</a></h2>
-<p>Production (Al<sub>2</sub>O<sub>3</sub> content) (tonnes)</p>
-<table id="alumina-table">
-<thead>
-<tr>
-    <th>Country</th>
-    <th>2014</th>
-    <th>2015</th>
-    <th>2016</th>
-    <th>2017</th>
-    <th>2018</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-    <td>Bosnia &amp; Herzegovina</td>
-    <td>170 646</td>
-    <td>250 845</td>
-    <td>187 515</td>
-    <td>247 449</td>
-    <td>261 700</td>
-</tr>
-<tr>
-    <td>France</td>
-    <td>400 000</td>
-    <td>432 000</td>
-    <td>* 500 000</td>
-    <td>* 500 000</td>
-    <td>* 500 000</td>
-</tr>
-<tr>
-    <td>Germany</td>
-    <td>* 1 000 000</td>
-    <td>* 1 000 000</td>
-    <td>* 1 000 000</td>
-    <td>* 1 000 000</td>
-    <td>* 1 000 000</td>
-</tr>
-<tr>
-    <td>Greece</td>
-    <td>674 040</td>
-    <td>674 420</td>
-    <td>693 460</td>
-    <td>695 400</td>
-    <td>677 000</td>
-</tr>
-<tr>
-    <td>Hungary</td>
-    <td>* 1 000</td>
-    <td>—</td>
-    <td>—</td>
-    <td>—</td>
-    <td>—</td>
-</tr>
-<tr>
-    <td>Ireland, Republic of</td>
-    <td>1 876 851</td>
-    <td>1 897 616</td>
-    <td>1 898 054</td>
-    <td>1 880 057</td>
-    <td>1 818 065</td>
-</tr>
-<tr>
-    <td>Romania</td>
-    <td>362 627</td>
-    <td>404 825</td>
-    <td>467 031</td>
-    <td>472 606</td>
-    <td>571 772</td>
-</tr>
-<tr>
-    <td>Russia</td>
-    <td>2 572 000</td>
-    <td>2 593 000</td>
-    <td>2 682 000</td>
-    <td>2 822 000</td>
-    <td>2 763 000</td>
-</tr>
-<tr>
-    <td>Spain</td>
-    <td>1 517 000</td>
-    <td>1 633 000</td>
-    <td>1 579 000</td>
-    <td>1 588 000</td>
-    <td>1 589 000</td>
-</tr>
-<tr>
-    <td>Turkey</td>
-    <td>* 190 000</td>
-    <td>* 200 000</td>
-    <td>* 260 000</td>
-    <td>* 260 000</td>
-    <td>* 260 000</td>
-</tr>
-<tr>
-    <td>Ukraine</td>
-    <td>1 455 000</td>
-    <td>1 481 000</td>
-    <td>1 510 000</td>
-    <td>1 676 000</td>
-    <td>1 715 000</td>
-</tr>
-<tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-</tr>
-<tr>
-    <td>Guinea</td>
-    <td>—</td>
-    <td>—</td>
-    <td>—</td>
-    <td>—</td>
-    <td>390 200</td>
-</tr>
-<tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-</tr>
-<tr>
-    <td>Canada</td>
-    <td>1 562 559</td>
-    <td>1 560 932</td>
-    <td>1 566 467</td>
-    <td>1 570 000</td>
-    <td>1 568 000</td>
-</tr>
-<tr>
-    <td>Jamaica</td>
-    <td>1 850 960</td>
-    <td>1 864 645</td>
-    <td>1 865 278</td>
-    <td>1 782 373</td>
-    <td>2 483 572</td>
-</tr>
-<tr>
-    <td>USA</td>
-    <td>4 461 000</td>
-    <td>4 234 000</td>
-    <td>2 360 000</td>
-    <td>1 430 000</td>
-    <td>* 1 500 000</td>
-</tr>
-<tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-</tr>
-<tr>
-    <td>Brazil</td>
-    <td>10 404 000</td>
-    <td>10 451 500</td>
-    <td>10 885 500</td>
-    <td>11 060 600</td>
-    <td>8 258 000</td>
-</tr>
-<tr>
-    <td>Suriname</td>
-    <td>1 149 388</td>
-    <td>779 660</td>
-    <td>—</td>
-    <td>—</td>
-    <td>—</td>
-</tr>
-<tr>
-    <td>Venezuela</td>
-    <td>660 195</td>
-    <td>459 488</td>
-    <td>* 300 000</td>
-    <td>* 200 000</td>
-    <td>* 60 000</td>
-</tr>
-<tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-</tr>
-<tr>
-    <td>China</td>
-    <td>52 399 100</td>
-    <td>58 978 355</td>
-    <td>60 906 000</td>
-    <td>69 006 700</td>
-    <td>72 530 571</td>
-</tr>
-<tr>
-    <td>India&nbsp;&nbsp;(a)</td>
-    <td>5 024 215</td>
-    <td>5 572 293</td>
-    <td>6 075 839</td>
-    <td>6 119 449</td>
-    <td>6 546 500</td>
-</tr>
-<tr>
-    <td>Indonesia</td>
-    <td>—</td>
-    <td>69 869</td>
-    <td>* 495 000</td>
-    <td>917 099</td>
-    <td>842 536</td>
-</tr>
-<tr>
-    <td>Iran&nbsp;&nbsp;(b)</td>
-    <td>251 000</td>
-    <td>241 000</td>
-    <td>235 000</td>
-    <td>240 200</td>
-    <td>237 563</td>
-</tr>
-<tr>
-    <td>Japan</td>
-    <td>* 116 000</td>
-    <td>* 19 000</td>
-    <td>* 17 000</td>
-    <td>* 13 000</td>
-    <td>* 8 000</td>
-</tr>
-<tr>
-    <td>Kazakhstan</td>
-    <td>1 628 252</td>
-    <td>1 448 280</td>
-    <td>1 745 801</td>
-    <td>1 771 697</td>
-    <td>1 751 472</td>
-</tr>
-<tr>
-    <td>Saudi Arabia</td>
-    <td>23 000</td>
-    <td>846 000</td>
-    <td>1 429 000</td>
-    <td>1 484 000</td>
-    <td>1 774 000</td>
-</tr>
-<tr>
-    <td>Vietnam</td>
-    <td>485 000</td>
-    <td>* 474 000</td>
-    <td>* 597 000</td>
-    <td>1 062 000</td>
-    <td>1 329 700</td>
-</tr>
-<tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-</tr>
-<tr>
-    <td>Australia</td>
-    <td>20 475 523</td>
-    <td>20 097 181</td>
-    <td>20 680 827</td>
-    <td>20 485 770</td>
-    <td>20 061 795</td>
-</tr>
-<tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-</tr>
-<tr>
-    <td>World total</td>
-    <td>110 700 000</td>
-    <td>117 700 000</td>
-    <td>119 900 000</td>
-    <td>128 300 000</td>
-    <td>130 500 000</td>
-</tr>
-</tbody>
-</table><p>Note(s)</p>
-<p>(1) Where possible figures in this table show the alumina equivalent
-(Al<sub>2</sub>O<sub>3</sub>) of total hydrate produced, whether or not
-calcined.</p>
-<p>(2) The figures in this table represent alumina produced from bauxite.
-Alumina-rich materials can also be derived from salt slags formed</p>
-<p>during the production of secondary aluminium.</p>
-<ol class="loweralpha simple">
-<li>Years ended 31 March following that stated</li>
-<li>Years ended 20 March following that stated</li>
-</ol>
+<div class="section" id="superficial-geology">
+<h2>Superficial Geology<a class="headerlink" href="#superficial-geology" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="table">
+<h3>Table<a class="headerlink" href="#table" title="Permalink to this headline">¶</a></h3>
+<table id="superficial-table" tabulator-groupBy="feature">
+  <thead>
+      <tr>
+        <th>Feature</th>
+        <th>LEX_D</th>
+        <th tabulator-headerFilter="input">LEX</th>
+        <th tabulator-headerFilter="input">LEX-RCS</th>
+        <th>Hex</th>
+        <th>SVG Parameter</th>
+        <th>Stroke Hex Colour</th>
+        <th>stroke-width</th>
+        <th>stroke-linejoin</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td>BGS_625k_V5_SUPERFICIAL_Geology_Polygons</td>
+        <td></td>
+        <td></td>
+        <td>ALV-CLSS</td>
+        <td>#fefeae</td>
+        <td>fill</td>
+        <td>#000000</td>
+        <td>0.5</td>
+        <td>bevel</td>
+      </tr>
+      <tr>
+        <td>BGS_625k_V5_SUPERFICIAL_Geology_Polygons</td>
+        <td></td>
+        <td></td>
+        <td>BRK-SILT</td>
+        <td>#fe9200</td>
+        <td>fill</td>
+        <td>#000000</td>
+        <td>0.5</td>
+        <td>bevel</td>
+      </tr>
+      <tr>
+        <td>BGS_625k_V5_SUPERFICIAL_Geology_Polygons</td>
+        <td></td>
+        <td></td>
+        <td>BSA-SAND</td>
+        <td>#92fe32</td>
+        <td>fill</td>
+        <td>#000000</td>
+        <td>0.5</td>
+        <td>bevel</td>
+      </tr>
+      <tr>
+        <td>BGS_625k_V5_SUPERFICIAL_Geology_Polygons</td>
+        <td></td>
+        <td></td>
+        <td>CRAG-SAGR</td>
+        <td>#fe53ae</td>
+        <td>fill</td>
+        <td>#000000</td>
+        <td>0.5</td>
+        <td>bevel</td>
+      </tr>
+      <tr>
+        <td>BGS_625k_V5_SUPERFICIAL_Geology_Polygons</td>
+        <td></td>
+        <td></td>
+        <td>CWF-DMTN</td>
+        <td>#c87432</td>
+        <td>fill</td>
+        <td>#000000</td>
+        <td>0.5</td>
+        <td>bevel</td>
+      </tr>
+      <tr>
+        <td>BGS_625k_V5_SUPERFICIAL_Geology_Polygons</td>
+        <td></td>
+        <td></td>
+        <td>GSG-SAGR</td>
+        <td>#fec8fe</td>
+        <td>fill</td>
+        <td>#000000</td>
+        <td>0.5</td>
+        <td>bevel</td>
+      </tr>
+      <tr>
+        <td>BGS_625k_V5_SUPERFICIAL_Geology_Polygons</td>
+        <td></td>
+        <td></td>
+        <td>LDE-CLAY</td>
+        <td>#ecc892</td>
+        <td>fill</td>
+        <td>#000000</td>
+        <td>0.5</td>
+        <td>bevel</td>
+      </tr>
+      <tr>
+        <td>BGS_625k_V5_SUPERFICIAL_Geology_Polygons</td>
+        <td></td>
+        <td></td>
+        <td>PEAT-PEAT</td>
+        <td>#daae74</td>
+        <td>fill</td>
+        <td>#000000</td>
+        <td>0.5</td>
+        <td>bevel</td>
+      </tr>
+      <tr>
+        <td>BGS_625k_V5_SUPERFICIAL_Geology_Polygons</td>
+        <td></td>
+        <td></td>
+        <td>RMD-SAGR</td>
+        <td>#fec8ae</td>
+        <td>fill</td>
+        <td>#000000</td>
+        <td>0.5</td>
+        <td>bevel</td>
+      </tr>
+      <tr>
+        <td>BGS_625k_V5_SUPERFICIAL_Geology_Polygons</td>
+        <td></td>
+        <td></td>
+        <td>RTDU-SAGR</td>
+        <td>#feae53</td>
+        <td>fill</td>
+        <td>#000000</td>
+        <td>0.5</td>
+        <td>bevel</td>
+      </tr>
+      <tr>
+        <td>BGS_625k_V5_SUPERFICIAL_Geology_Polygons</td>
+        <td></td>
+        <td></td>
+        <td>SGAO-SAGR</td>
+        <td>#fec8fe</td>
+        <td>fill</td>
+        <td>#000000</td>
+        <td>0.5</td>
+        <td>bevel</td>
+      </tr>
+      <tr>
+        <td>BGS_625k_V5_SUPERFICIAL_Geology_Polygons</td>
+        <td></td>
+        <td></td>
+        <td>SLIP-UNKN</td>
+        <td>#7492fe</td>
+        <td>fill</td>
+        <td>#000000</td>
+        <td>0.5</td>
+        <td>bevel</td>
+      </tr>
+      <tr>
+        <td>BGS_625k_V5_SUPERFICIAL_Geology_Polygons</td>
+        <td></td>
+        <td></td>
+        <td>TILL-DMTN</td>
+        <td>#dafefe</td>
+        <td>fill</td>
+        <td>#000000</td>
+        <td>0.5</td>
+        <td>bevel</td>
+      </tr>
+      <tr>
+        <td>BGS_625k_V5_SUPERFICIAL_Geology_Polygons</td>
+        <td></td>
+        <td></td>
+        <td>UNKND-UNKN</td>
+        <td>#fefeec</td>
+        <td>fill</td>
+        <td>#000000</td>
+        <td>0.5</td>
+        <td>bevel</td>
+      </tr>
+      <tr>
+        <td>BGS_625k_V7b_24_SUPERFICIAL_Geology_Polygons</td>
+        <td>Aeolian Deposits</td>
+        <td>AEOLD</td>
+        <td></td>
+        <td>#94ff33</td>
+        <td>fill</td>
+        <td>#232323</td>
+        <td>1</td>
+        <td>bevel</td>
+      </tr>
+      <tr>
+        <td>BGS_625k_V7b_24_SUPERFICIAL_Geology_Polygons</td>
+        <td>Organic Deposits</td>
+        <td>ORGD</td>
+        <td></td>
+        <td>#c97500</td>
+        <td>fill</td>
+        <td>#232323</td>
+        <td>1</td>
+        <td>bevel</td>
+      </tr>
+      <tr>
+        <td>BGS_625k_V7b_24_SUPERFICIAL_Geology_Polygons</td>
+        <td>Lacustrine Deposits</td>
+        <td>LDE</td>
+        <td></td>
+        <td>#c9c954</td>
+        <td>fill</td>
+        <td>#232323</td>
+        <td>1</td>
+        <td>bevel</td>
+      </tr>
+      <tr>
+        <td>BGS_625k_V7b_24_SUPERFICIAL_Geology_Polygons</td>
+        <td>Alluvial Fan Deposits</td>
+        <td>ALF</td>
+        <td></td>
+        <td>#ff3300</td>
+        <td>fill</td>
+        <td>#232323</td>
+        <td>1</td>
+        <td>bevel</td>
+      </tr>
+      <tr>
+        <td>BGS_625k_V7b_24_SUPERFICIAL_Geology_Polygons</td>
+        <td>Alluvial Deposits</td>
+        <td>ALV</td>
+        <td></td>
+        <td>#ffff00</td>
+        <td>fill</td>
+        <td>#232323</td>
+        <td>1</td>
+        <td>bevel</td>
+      </tr>
+      <tr>
+        <td>BGS_625k_V7b_24_SUPERFICIAL_Geology_Polygons</td>
+        <td>River-Terrace Deposits</td>
+        <td>RTD</td>
+        <td></td>
+        <td>#ff7533</td>
+        <td>fill</td>
+        <td>#232323</td>
+        <td>1</td>
+        <td>bevel</td>
+      </tr>
+      <tr>
+        <td>BGS_625k_V7b_24_SUPERFICIAL_Geology_Polygons</td>
+        <td>Marine and Coastal-Zone Deposits</td>
+        <td>MCZD</td>
+        <td></td>
+        <td>#75dbc9</td>
+        <td>fill</td>
+        <td>#232323</td>
+        <td>1</td>
+        <td>bevel</td>
+      </tr>
+      <tr>
+        <td>BGS_625k_V7b_24_SUPERFICIAL_Geology_Polygons</td>
+        <td>Glaciofluvial Deposits</td>
+        <td>GFDU</td>
+        <td></td>
+        <td>#ff33ff</td>
+        <td>fill</td>
+        <td>#232323</td>
+        <td>1</td>
+        <td>bevel</td>
+      </tr>
+      <tr>
+        <td>BGS_625k_V7b_24_SUPERFICIAL_Geology_Polygons</td>
+        <td>Glaciolacustrine Deposits</td>
+        <td>GLLD</td>
+        <td></td>
+        <td>#ffb0b0</td>
+        <td>fill</td>
+        <td>#232323</td>
+        <td>1</td>
+        <td>bevel</td>
+      </tr>
+      <tr>
+        <td>BGS_625k_V7b_24_SUPERFICIAL_Geology_Polygons</td>
+        <td>Glacigenic Deposits</td>
+        <td>GLACI</td>
+        <td></td>
+        <td>#b0ffff</td>
+        <td>fill</td>
+        <td>#232323</td>
+        <td>1</td>
+        <td>bevel</td>
+      </tr>
+      <tr>
+        <td>BGS_625k_V7b_24_SUPERFICIAL_Geology_Polygons</td>
+        <td>Residual Deposits</td>
+        <td>RDEPS</td>
+        <td></td>
+        <td>#b05400</td>
+        <td>fill</td>
+        <td>#232323</td>
+        <td>1</td>
+        <td>bevel</td>
+      </tr>
+  </tbody>
+</table></div>
 </div>
-<div class="section" id="mine-production-of-gold">
-<h2>Mine production of gold<a class="headerlink" href="#mine-production-of-gold" title="Permalink to this headline">¶</a></h2>
-<p>In addition to ‘industrial scale’ gold mines around the world, a significant quantity of gold is mined by small scale or artisanal producers, both on a legal and illegal basis. In some countries the quantities involved with artisanal mining can be relatively large. The compilation of reliable data for the quantity produced by artisanal mining in each country is difficult, particularly where the actions are illegal. Artisanal mining can be seasonal, temporary and highly variable, on both geographical and temporal scales.</p>
-<p>Where possible, the table attempts to include estimates for artisanal mining of gold in order that the calculated world totals are as complete as possible. However, the difficulties noted above mean that these totals cannot be completely accurate and they are consequently rounded to a greater degree than the individual country figures may suggest is appropriate. This is an attempt to convey the level of uncertainty associated with these total figures.</p>
-<p>For clarity, additional comments on specific countries are shown below (there may be other countries where artisanal mining also occurs; these comments are not intended to be exhaustive):-</p>
-<div class="section" id="benin">
-<h3>Benin<a class="headerlink" href="#benin" title="Permalink to this headline">¶</a></h3>
-<p>Artisanal gold mining is known to take place but no reliable estimates are available. It has been estimated to be in the region of 20 30 kg per year, but it could be larger in some years.</p>
+<div class="section" id="bedrock-dykes">
+<h2>Bedrock &amp; Dykes<a class="headerlink" href="#bedrock-dykes" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id1">
+<h3>Table<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<table id="bedrock-table" tabulator-groupBy="feature">
+  <thead>
+      <tr>
+        <th>Feature</th>
+        <th tabulator-headerFilter="input">LEX_RCS_D</th>
+        <th tabulator-headerFilter="input">LEX_RCS_I</th>
+        <th>Hex</th>
+        <th>SVG Parameter</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>APPIN GROUP - GRAPHITIC PELITE, CALCAREOUS PELITE, CALCSILICATE-ROCK AND PSAMMITE</td>
+        <td>2199999_APP-PGCP</td>
+        <td>#b0ff54</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>APPIN GROUP - METALIMESTONE</td>
+        <td>2199999_APP-MLMST</td>
+        <td>#00ffff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>APPIN GROUP - QUARTZITE</td>
+        <td>2199999_APP-QZITE</td>
+        <td>#eddb33</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>APPIN GROUP AND ARGYLL GROUP (UNDIFFERENTIATED) - METALIMESTONE</td>
+        <td>2199999_APAR-MLMST</td>
+        <td>#00ffff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>APPIN GROUP AND ARGYLL GROUP (UNDIFFERENTIATED) - PSAMMITE, SEMIPELITE AND PELITE</td>
+        <td>2199999_APAR-PSP</td>
+        <td>#b0ff54</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>APPLEBY GROUP - SANDSTONE AND CONGLOMERATE, INTERBEDDED</td>
+        <td>1319999_APY-SCON</td>
+        <td>#ff7500</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>ARBUTHNOTT-GARVOCK GROUP - SANDSTONE WITH SUBORDINATE CONGLOMERATE, SILTSTONE AND MUDSTONE</td>
+        <td>1330339_ATGK-SCSM</td>
+        <td>#dbb0b0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>ARDVRECK GROUP - QUARTZ-ARENITE</td>
+        <td>1360399_ARDV-QAREN</td>
+        <td>#c9ff94</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>ARENIG ROCKS (UNDIFFERENTIATED) - MUDSTONE, SILTSTONE AND SANDSTONE</td>
+        <td>1350499_ARNG-MDSS</td>
+        <td>#75b0db</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>ARGYLL GROUP - DIAMICTITE</td>
+        <td>2199999_ARGY-DIAMIT</td>
+        <td>#94c9c9</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>ARGYLL GROUP - METALIMESTONE</td>
+        <td>2199999_ARGY-MLMST</td>
+        <td>#00ffff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>ARGYLL GROUP - METAVOLCANICLASTIC IGNEOUS-ROCK AND METAVOLCANICLASTIC SEDIMENTARY-ROCK</td>
+        <td>2199999_ARGY-MVIVS</td>
+        <td>#c9ffc9</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>ARGYLL GROUP - PSAMMITE, SEMIPELITE AND PELITE</td>
+        <td>2199999_ARGY-PSP</td>
+        <td>#b0ff94</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>ARGYLL GROUP - QUARTZITE</td>
+        <td>2199999_ARGY-QZITE</td>
+        <td>#eddb33</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>ARMAGH GROUP - LIMESTONE, ARGILLACEOUS ROCKS AND SUBORDINATE SANDSTONE, INTERBEDDED</td>
+        <td>1322159_ARMA-LMAS</td>
+        <td>#33dbb0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>ASHGILL ROCKS (UNDIFFERENTIATED) - MUDSTONE, SILTSTONE AND SANDSTONE</td>
+        <td>1350199_ASHL-MDSS</td>
+        <td>#eddbff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>BELFAST GROUP - SANDSTONE AND [SUBEQUAL/SUBORDINATE] LIMESTONE, INTERBEDDED</td>
+        <td>1310199_BELF-SDLM</td>
+        <td>#b0ffff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>BLACKCRAIG FORMATION AND GALDENOCH FORMATION (UNDIFFERENTIATED) - WACKE</td>
+        <td>1350299_BKGA-WACKE</td>
+        <td>#c9eded</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>BORDER GROUP - SANDSTONE WITH SUBORDINATE ARGILLACEOUS ROCKS AND LIMESTONE</td>
+        <td>1322159_BDR-SARL</td>
+        <td>#75ffc9</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>BOUNDARY ZONE COMPLEX - GNEISSOSE SEMIPELITE AND GNEISSOSE PSAMMITE</td>
+        <td>2199999_BZ-MSSP</td>
+        <td>#ffdbdb</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>BOWLAND HIGH GROUP AND CRAVEN GROUP (UNDIFFERENTIATED) - LIMESTONE</td>
+        <td>1322219_BHCR-LMST</td>
+        <td>#75ffff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>BOWLAND HIGH GROUP AND CRAVEN GROUP (UNDIFFERENTIATED) - MUDSTONE, SILTSTONE AND SANDSTONE</td>
+        <td>1322219_BHCR-MDSS</td>
+        <td>#edff54</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>BRACKLESHAM GROUP AND BARTON GROUP (UNDIFFERENTIATED) - SAND, SILT AND CLAY</td>
+        <td>1130299_BRBA-SSCL</td>
+        <td>#ff9433</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>CAMBRIAN AND ORDOVICIAN ROCKS (UNDIFFERENTIATED) - MAFIC LAVA AND MAFIC TUFF</td>
+        <td>1369999_CAOR-LATM</td>
+        <td>#ffdbff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>CARADOC ROCKS (UNDIFFERENTIATED) - MUDSTONE, SILTSTONE AND SANDSTONE</td>
+        <td>1350299_CARA-MDSS</td>
+        <td>#b0dbff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>CLACKMANNAN GROUP - SEDIMENTARY ROCK CYCLES, CLACKMANNAN GROUP TYPE</td>
+        <td>1322119_CKN-CYCC</td>
+        <td>#dbdbb0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>COAL MEASURES GROUP [OBSOLETE&nbsp;&nbsp;EXCEPT IN NORTHERN IRELAND: USE PCM, SWCM, CMSC] - MUDSTONE, SILTSTON</td>
+        <td>1321299_CM-MSCI</td>
+        <td>#c9c9c9</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>CORALLIAN GROUP - LIMESTONE, SANDSTONE, SILTSTONE AND MUDSTONE</td>
+        <td>1220139_CR-LSSM</td>
+        <td>#ffed54</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>CRAWFORD GROUP AND MOFFAT SHALE GROUP (UNDIFFERENTIATED) - MUDSTONE, CHERT AND SMECTITE-CLAYSTONE</td>
+        <td>1350499_CRMF-MDCB</td>
+        <td>#75b0db</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>CROSS SLIEVE GROUP - CONGLOMERATE AND [SUBEQUAL/SUBORDINATE] SANDSTONE, INTERBEDDED</td>
+        <td>1330339_CSSL-COSD</td>
+        <td>#db75b0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>DEVONIAN ROCKS (UNDIFFERENTIATED) - HORNBLENDE SCHIST</td>
+        <td>1339998_DEV-HBSCH</td>
+        <td>#c9db00</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>DEVONIAN ROCKS (UNDIFFERENTIATED) - LIMESTONE, MUDSTONE AND CALCAREOUS MUDSTONE</td>
+        <td>1339998_DEV-LMCM</td>
+        <td>#75ffff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>DEVONIAN ROCKS (UNDIFFERENTIATED) - MICA SCHIST</td>
+        <td>1339998_DEV-SCHM</td>
+        <td>#75db00</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>DINANTIAN ROCKS (UNDIFFERENTIATED) - LIMESTONE WITH SUBORDINATE SANDSTONE AND ARGILLACEOUS ROCKS</td>
+        <td>1322999_DINA-LSSA</td>
+        <td>#54ffed</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>DINANTIAN ROCKS (UNDIFFERENTIATED) - SANDSTONE, LIMESTONE AND ARGILLACEOUS ROCKS</td>
+        <td>1322999_DINA-SLAR</td>
+        <td>#33ffdb</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>DUNNOTTAR-CRAWTON GROUP - SANDSTONE AND CONGLOMERATE, INTERBEDDED</td>
+        <td>1340299_DRCR-SCON</td>
+        <td>#db75b0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>DURNESS GROUP - DOLOSTONE</td>
+        <td>1360399_DNG-DOLO</td>
+        <td>#94ffff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>ENLER GROUP - SANDSTONE AND SUBORDINATE BRECCIA</td>
+        <td>1310299_ENLE-SDBR</td>
+        <td>#db7500</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>EOCENE TO MIOCENE ROCKS (UNDIFFERENTIATED) - CLAY, SILT, SAND AND GRAVEL</td>
+        <td>1130299_EOMIO-CLSSG</td>
+        <td>#dbdb33</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>FAULT ZONE ROCKS, UNASSIGNED - MYLONITIC-ROCK AND FAULT-BRECCIA</td>
+        <td>0_FZRU-MYCFB</td>
+        <td>#94b000</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>FINTONA GROUP - SANDSTONE, MUDSTONE, SILTSTONE AND CONGLOMERATE</td>
+        <td>1330299_FIN-SMSC</td>
+        <td>#ed7594</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>GALA GROUP - WACKE</td>
+        <td>1340439_GALA-WACKE</td>
+        <td>#7533ff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>GAULT FORMATION AND UPPER GREENSAND FORMATION (UNDIFFERENTIATED) - MUDSTONE, SANDSTONE AND LIMESTONE</td>
+        <td>1210219_GUGS-MDSL</td>
+        <td>#00ffb0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>GLENFINNAN GROUP - PELITE</td>
+        <td>2199999_GLEN-PEL</td>
+        <td>#7575ed</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>GLENFINNAN GROUP - PSAMMITE</td>
+        <td>2199999_GLEN-PSAMM</td>
+        <td>#ffed75</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>GLENFINNAN GROUP - PSAMMITE AND PELITE</td>
+        <td>2199999_GLEN-PSPE</td>
+        <td>#b094ed</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>GLENFINNAN GROUP - QUARTZITE</td>
+        <td>2199999_GLEN-QZITE</td>
+        <td>#eddb33</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>GRAMPIAN GROUP - PSAMMITE AND SEMIPELITE</td>
+        <td>2199999_GRAM-PSSP</td>
+        <td>#94ffb0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>GRAMPIAN GROUP - QUARTZITE</td>
+        <td>2199999_GRAM-QZITE</td>
+        <td>#eddb33</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>GREAT OOLITE GROUP - SANDSTONE, LIMESTONE AND ARGILLACEOUS ROCKS</td>
+        <td>1220229_GOG-SLAR</td>
+        <td>#ffeddb</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>GREY CHALK SUBGROUP - CHALK</td>
+        <td>1210169_GYCK-CHLK</td>
+        <td>#c9ff00</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>HAWICK GROUP - WACKE</td>
+        <td>1340499_HWK-WACKE</td>
+        <td>#9454ff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>HIBERNIAN GREENSANDS FORMATION AND ULSTER WHITE LIMESTONE FORMATION (UNDIFFERENTIATED) - CHALK AND S</td>
+        <td>1210199_HGUW-CHSA</td>
+        <td>#dbff54</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>HIGHLAND BORDER COMPLEX [UNDER REVIEW; POSSIBLY OBSOLETE] - SERPENTINITE, METABASALT, METALIMESTONE</td>
+        <td>1369999_HBX-SMLP</td>
+        <td>#3375c9</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>HOLSWORTHY GROUP - MUDSTONE, SILTSTONE AND SANDSTONE</td>
+        <td>1321399_HOWY-MDSS</td>
+        <td>#dbdbb0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>HOLYWOOD GROUP - SANDSTONE, CONGLOMERATE AND [SUBORDINATE] ARGILLACEOUS ROCKS</td>
+        <td>1322219_HOLY-SCAR</td>
+        <td>#33ffdb</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>INFERIOR OOLITE GROUP - LIMESTONE, SANDSTONE, SILTSTONE AND MUDSTONE</td>
+        <td>1220249_INO-LSSM</td>
+        <td>#ffedb0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>INVERCLYDE GROUP - SANDSTONE, SILTSTONE AND MUDSTONE</td>
+        <td>1322219_INV-SDSM</td>
+        <td>#33ffdb</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>KELLAWAYS FORMATION AND OXFORD CLAY FORMATION (UNDIFFERENTIATED) - MUDSTONE, SILTSTONE AND SANDSTONE</td>
+        <td>1220219_KLOX-MDSS</td>
+        <td>#c9b0c9</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>KILSKEERY GROUP - SANDSTONE, MUDSTONE, SILTSTONE AND CONGLOMERATE</td>
+        <td>1322129_KILS-SMSC</td>
+        <td>#dbdbb0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>KIRKCOLM FORMATION - WACKE</td>
+        <td>1350299_KKF-WACKE</td>
+        <td>#b0dbff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>LAMBETH GROUP - CLAY, SILT, SAND AND GRAVEL</td>
+        <td>1130399_LMBE-CLSSG</td>
+        <td>#ffb054</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>LANARK GROUP - SANDSTONE AND CONGLOMERATE, INTERBEDDED</td>
+        <td>1349999_LNK-SCON</td>
+        <td>#ed7575</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>LEADHILLS SUPERGROUP - WACKE</td>
+        <td>1350329_LHG-WACKE</td>
+        <td>#eddbff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>LEITRIM GROUP - SANDSTONE, MUDSTONE, SILTSTONE AND CONGLOMERATE</td>
+        <td>1322199_LEG-SMSC</td>
+        <td>#dbff75</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>LEWISIAN COMPLEX - GNEISS</td>
+        <td>3999999_L-GNSS</td>
+        <td>#ed94ed</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>LEWISIAN COMPLEX - MAFIC GNEISS</td>
+        <td>3999999_L-GNSMF</td>
+        <td>#b033ff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>LEWISIAN COMPLEX - METASEDIMENTARY ROCK</td>
+        <td>3999999_L-MSDR</td>
+        <td>#c9b0db</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>LIAS GROUP - MUDSTONE, SILTSTONE, LIMESTONE AND SANDSTONE</td>
+        <td>1230119_LI-MSLS</td>
+        <td>#b09494</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>LLANDOVERY ROCKS (UNDIFFERENTIATED) - MUDSTONE, SILTSTONE AND SANDSTONE</td>
+        <td>1340499_LDVY-MDSS</td>
+        <td>#b094ff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>LLANDOVERY ROCKS (UNDIFFERENTIATED) - SANDSTONE AND CONGLOMERATE, INTERBEDDED</td>
+        <td>1340499_LDVY-SCON</td>
+        <td>#c9b0db</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>LLANVIRN ROCKS (UNDIFFERENTIATED) - MUDSTONE, SILTSTONE AND SANDSTONE</td>
+        <td>1350329_LLVN-MDSS</td>
+        <td>#94c9ed</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>LOCH EIL GROUP - METALIMESTONE</td>
+        <td>2199999_LEIL-MLMST</td>
+        <td>#00ffff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>LOCH EIL GROUP - PELITE</td>
+        <td>2199999_LEIL-PEL</td>
+        <td>#7575ed</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>LOCH EIL GROUP - PSAMMITE</td>
+        <td>2199999_LEIL-PSAMM</td>
+        <td>#ffed75</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>LOCH EIL GROUP - QUARTZITE</td>
+        <td>2199999_LEIL-QZITE</td>
+        <td>#eddb33</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>LOCH MAREE GROUP - SCHIST</td>
+        <td>2999999_LMR-SCH</td>
+        <td>#ffdb54</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>LOUGH NEAGH CLAYS GROUP - CLAY AND LIGNITE</td>
+        <td>1130199_LNG-CLLI</td>
+        <td>#c9b075</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>LOWER CAMBRIAN ROCKS (UNDIFFERENTIATED) - MUDSTONE, SILTSTONE AND SANDSTONE</td>
+        <td>1360399_LRC-MDSS</td>
+        <td>#54c9b0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>LOWER CAMBRIAN ROCKS (UNDIFFERENTIATED) - SANDSTONE AND CONGLOMERATE, INTERBEDDED</td>
+        <td>1360399_LRC-SCON</td>
+        <td>#c9b0b0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>LOWER DEVONIAN ROCKS (UNDIFFERENTIATED) - MUDSTONE, SILTSTONE AND SANDSTONE</td>
+        <td>1330399_LDEV-MDSS</td>
+        <td>#db75b0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>LOWER DEVONIAN ROCKS (UNDIFFERENTIATED) - SANDSTONE AND CONGLOMERATE, INTERBEDDED</td>
+        <td>1330399_LDEV-SCON</td>
+        <td>#ff5400</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>LOWER GREENSAND GROUP - SANDSTONE AND MUDSTONE</td>
+        <td>1210229_LGS-STMD</td>
+        <td>#c9ffdb</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>LOWER OLD RED SANDSTONE - CONGLOMERATE, SANDSTONE, SILTSTONE AND MUDSTONE</td>
+        <td>1330399_LORS-CSSM</td>
+        <td>#db75b0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>LUDLOW ROCKS (UNDIFFERENTIATED) - MUDSTONE, SILTSTONE AND SANDSTONE</td>
+        <td>1340299_LUDL-MDSS</td>
+        <td>#dbb0ff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>MERCIA MUDSTONE GROUP - MUDSTONE, SANDSTONE AND LIMESTONE</td>
+        <td>1230399_MMG-MDSL</td>
+        <td>#ff9494</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>MESOPROTEROZOIC ROCKS (UNDIFFERENTIATED) - PSAMMITE, SEMIPELITE AND PELITE</td>
+        <td>2299999_AXRU-PSP</td>
+        <td>#ff94b0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>MIDDLE CAMBRIAN - MUDSTONE, SILTSTONE AND SANDSTONE</td>
+        <td>1360299_MC-MDSS</td>
+        <td>#75dbb0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>MIDDLE DEVONIAN (UNDIFFERENTIATED) - MUDSTONE, SILTSTONE AND SANDSTONE</td>
+        <td>1330299_MDEV-MDSS</td>
+        <td>#ffc954</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>MIDDLE DEVONIAN (UNDIFFERENTIATED) - SANDSTONE AND CONGLOMERATE, INTERBEDDED</td>
+        <td>1330299_MDEV-SCON</td>
+        <td>#ed7594</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>MIDDLE JURASSIC ROCKS (UNDIFFERENTIATED) - MUDSTONE, SANDSTONE AND LIMESTONE</td>
+        <td>1220299_JURM-MDSL</td>
+        <td>#eddb75</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>MIDDLE OLD RED SANDSTONE (UNDIFFERENTIATED) - CONGLOMERATE, SANDSTONE, SILTSTONE AND MUDSTONE</td>
+        <td>1330299_MOR-CSSM</td>
+        <td>#ed7594</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>MILLSTONE GRIT GROUP [SEE ALSO MIGR] - MUDSTONE, SILTSTONE AND SANDSTONE</td>
+        <td>1321399_MG-MDSS</td>
+        <td>#dbdbb0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>MOINE SUPERGROUP - GNEISSOSE PSAMMITE AND GNEISSOSE SEMIPELITE</td>
+        <td>2199999_M-GPSP</td>
+        <td>#ffc994</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>MOINE SUPERGROUP - MIGMATITIC ROCK</td>
+        <td>2199999_M-MIGM</td>
+        <td>#ed54b0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>MOINE SUPERGROUP - PSAMMITE</td>
+        <td>2199999_M-PSAMM</td>
+        <td>#ffed75</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>MOINE SUPERGROUP - QUARTZITE</td>
+        <td>2199999_M-QZITE</td>
+        <td>#eddb33</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>MOINE SUPERGROUP - SEMIPELITE</td>
+        <td>2199999_M-SEMPEL</td>
+        <td>#b094ed</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>MORAR GROUP - PSAMMITE</td>
+        <td>2199999_MORR-PSAMM</td>
+        <td>#ffed75</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>MORAR GROUP - PSAMMITE, SEMIPELITE AND PELITE</td>
+        <td>2199999_MORR-PSP</td>
+        <td>#7575ed</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>MORAR GROUP - SEMIPELITE AND PELITE</td>
+        <td>2199999_MORR-SPPE</td>
+        <td>#b094ed</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>NEOGENE ROCKS (UNDIFFERENTIATED) - GRAVEL, SAND, SILT AND CLAY</td>
+        <td>1129999_NEOG-GSSC</td>
+        <td>#ffdb00</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>NEOGENE TO QUATERNARY ROCKS (UNDIFFERENTIATED) - GRAVEL, SAND, SILT AND CLAY</td>
+        <td>1129999_NEOQ-GSSC</td>
+        <td>#dbb000</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>NEW RED SANDSTONE SUPERGROUP - SANDSTONE, BRECCIA AND CONGLOMERATE</td>
+        <td>1319999_NRS-SDBC</td>
+        <td>#db7500</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>OLD RED SANDSTONE SUPERGROUP - CONGLOMERATE, SANDSTONE, SILTSTONE AND MUDSTONE</td>
+        <td>1340199_ORS-CSSM</td>
+        <td>#ed7594</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>OMAGH SANDSTONE GROUP - SANDSTONE, SILTSTONE AND MUDSTONE</td>
+        <td>1322219_OMSG-SDSM</td>
+        <td>#33ffdb</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>ORDOVICIAN ROCKS (UNDIFFERENTIATED) - MUDSTONE, SILTSTONE AND SANDSTONE</td>
+        <td>1359999_ORD-MDSS</td>
+        <td>#75b0db</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>ORDOVICIAN ROCKS (UNDIFFERENTIATED) - SANDSTONE AND CONGLOMERATE, INTERBEDDED</td>
+        <td>1359999_ORD-SCON</td>
+        <td>#ffdb94</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>OWENKILLEW SANDSTONE GROUP - SANDSTONE AND [SUBEQUAL/SUBORDINATE] ARGILLACEOUS ROCKS, INTERBEDDED</td>
+        <td>1322219_OWSA-SDAR</td>
+        <td>#33ffdb</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>PENNINE COAL MEASURES GROUP - MUDSTONE, SILTSTONE, SANDSTONE, COAL, IRONSTONE AND FERRICRETE</td>
+        <td>1321249_PCM-MSCI</td>
+        <td>#949494</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>PENNINE LOWER COAL MEASURES FORMATION AND SOUTH WALES LOWER COAL MEASURES FORMATION (UNDIFFERENTIATE</td>
+        <td>1321249_PSLCM-MSCI</td>
+        <td>#949494</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>PENNINE MIDDLE COAL MEASURES FORMATION AND SOUTH WALES MIDDLE COAL MEASURES FORMATION (UNDIFFERENTIA</td>
+        <td>1321239_PSMCM-MSCI</td>
+        <td>#c9c9c9</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>PENNINE UPPER COAL MEASURES FORMATION - MUDSTONE, SILTSTONE, SANDSTONE, COAL, IRONSTONE AND FERRICRE</td>
+        <td>1321229_PUCM-MSCI</td>
+        <td>#dbdbdb</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>PERMIAN ROCKS (UNDIFFERENTIATED) - MUDSTONE, SILTSTONE AND SANDSTONE</td>
+        <td>1319999_PUND-MDSS</td>
+        <td>#edb054</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>PERMIAN ROCKS (UNDIFFERENTIATED) - SANDSTONE AND CONGLOMERATE, INTERBEDDED</td>
+        <td>1319999_PUND-SCON</td>
+        <td>#db7500</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>PORTLAND GROUP - LIMESTONE AND CALCAREOUS SANDSTONE</td>
+        <td>1220112_PL-LMCS</td>
+        <td>#ffffb0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>PORTPATRICK FORMATION AND GLENWHARGEN FORMATION (UNDIFFERENTIATED) - WACKE</td>
+        <td>1350299_PPGW-WACKE</td>
+        <td>#c9edff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>PRIDOLI ROCKS (UNDIFFERENTIATED) - MUDSTONE, SILTSTONE AND SANDSTONE</td>
+        <td>1340199_PRID-MDSS</td>
+        <td>#c954b0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>PRIDOLI ROCKS (UNDIFFERENTIATED) - SANDSTONE AND CONGLOMERATE, INTERBEDDED</td>
+        <td>1340199_PRID-SCON</td>
+        <td>#ff7533</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>PURBECK LIMESTONE GROUP - LIMESTONE AND MUDSTONE, INTERBEDDED</td>
+        <td>1220112_PB-LSMD</td>
+        <td>#c9db33</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>QUEYFIRTH GROUP - PSAMMITE, PELITE, SEMIPELITE AND CALCSILICATE-ROCK</td>
+        <td>2199999_QYFH-PPSPC</td>
+        <td>#dbffed</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>RAVENSCAR GROUP - SANDSTONE, SILTSTONE AND MUDSTONE</td>
+        <td>1220249_RAG-SDSM</td>
+        <td>#dbb054</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>RED BAY FORMATION - CONGLOMERATE AND [SUBEQUAL/SUBORDINATE] SANDSTONE, INTERBEDDED</td>
+        <td>9999999_RBAY-COSD</td>
+        <td>#db7500</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>RESTON GROUP - CONGLOMERATE AND [SUBEQUAL/SUBORDINATE] SANDSTONE, INTERBEDDED</td>
+        <td>1340299_REST-COSD</td>
+        <td>#db75b0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>RICCARTON GROUP - WACKE</td>
+        <td>1340399_RCN-WACKE</td>
+        <td>#c975ff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>ROE VALLEY GROUP - SANDSTONE, CONGLOMERATE AND [SUBORDINATE] ARGILLACEOUS ROCKS</td>
+        <td>1322219_ROEV-SCAR</td>
+        <td>#33ffdb</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>SCOTTISH COAL MEASURES GROUP - MUDSTONE, SILTSTONE, SANDSTONE, COAL, IRONSTONE AND FERRICRETE</td>
+        <td>1321249_CMSC-MSCI</td>
+        <td>#c9c9c9</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>SHANMULLAGH FORMATION - SANDSTONE, MUDSTONE, SILTSTONE AND CONGLOMERATE</td>
+        <td>1330119_SHAN-SMSC</td>
+        <td>#db75b0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>SHERWOOD SANDSTONE GROUP - SANDSTONE, SILTSTONE AND MUDSTONE</td>
+        <td>1310199_SSG-SDSM</td>
+        <td>#ffb0c9</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>SHINNEL FORMATION AND GLENLEE FORMATION (UNDIFFERENTIATED) - WACKE</td>
+        <td>1350299_SHGN-WACKE</td>
+        <td>#eddbff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>SILURIAN ROCKS (UNDIFFERENTIATED) - LIMESTONE, MUDSTONE AND CALCAREOUS MUDSTONE</td>
+        <td>1349999_SILU-LMCM</td>
+        <td>#75ffff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>SILURIAN ROCKS (UNDIFFERENTIATED) - MUDSTONE, SILTSTONE AND SANDSTONE</td>
+        <td>1349999_SILU-MDSS</td>
+        <td>#b094ff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>SILURIAN ROCKS (UNDIFFERENTIATED) - SANDSTONE AND CONGLOMERATE, INTERBEDDED</td>
+        <td>1349999_SILU-SCON</td>
+        <td>#dbb0ff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>SLEAT GROUP - SANDSTONE, MUDSTONE, SILTSTONE AND CONGLOMERATE</td>
+        <td>2199999_TB-SMSC</td>
+        <td>#c99494</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>SLIEVEBANE GROUP - SANDSTONE AND CONGLOMERATE, INTERBEDDED</td>
+        <td>1321249_SLI-SCON</td>
+        <td>#edc994</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>SOLENT GROUP - CLAY, SILT AND SAND</td>
+        <td>1139999_SOLT-CLSISA</td>
+        <td>#ffb0b0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>SOUTH WALES UPPER COAL MEASURES FORMATION - MUDSTONE, SILTSTONE, SANDSTONE, COAL, IRONSTONE AND FERR</td>
+        <td>1321229_SWUCM-MSCI</td>
+        <td>#edc954</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>SOUTHERN HIGHLAND GROUP - LAVA, TUFF, VOLCANICLASTIC ROCK AND SEDIMENTARY ROCK</td>
+        <td>2199999_SOHI-LTVS</td>
+        <td>#c9ffc9</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>SOUTHERN HIGHLAND GROUP - METALIMESTONE</td>
+        <td>2199999_SOHI-MLMST</td>
+        <td>#00ffff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>SOUTHERN HIGHLAND GROUP - PELITE</td>
+        <td>2199999_SOHI-PEL</td>
+        <td>#7575ed</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>SOUTHERN HIGHLAND GROUP - PSAMMITE AND PELITE</td>
+        <td>2199999_SOHI-PSPE</td>
+        <td>#94ff75</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>SOUTHERN HIGHLAND GROUP - QUARTZITE</td>
+        <td>2199999_SOHI-QZITE</td>
+        <td>#eddb33</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>STEWARTRY GROUP - SANDSTONE, BRECCIA AND CONGLOMERATE</td>
+        <td>1310299_STEW-SDBC</td>
+        <td>#ff7500</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>STOER GROUP - BRECCIA, CONGLOMERATE AND SANDSTONE</td>
+        <td>2199999_TA-BCSD</td>
+        <td>#b07575</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>STONEHAVEN GROUP - SANDSTONE WITH SUBORDINATE CONGLOMERATE AND SILTSTONE</td>
+        <td>1340399_SHG-SCGS</td>
+        <td>#c954b0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>STRATHCLYDE GROUP - SEDIMENTARY ROCK CYCLES, STRATHCLYDE GROUP TYPE</td>
+        <td>1322159_SYG-CYCS</td>
+        <td>#b0b0b0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>STRATHEDEN GROUP - SANDSTONE AND CONGLOMERATE, INTERBEDDED</td>
+        <td>1330199_SAG-SCON</td>
+        <td>#ed9494</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>STRATHMORE GROUP - SANDSTONE WITH SUBORDINATE CONGLOMERATE, SILTSTONE AND MUDSTONE</td>
+        <td>1330319_SEG-SCSM</td>
+        <td>#edb0c9</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>STRATHY COMPLEX - GNEISS</td>
+        <td>2999999_MSC-GNSS</td>
+        <td>#ed94ed</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>TAPPINS GROUP - WACKE</td>
+        <td>1350329_TAP-WACKE</td>
+        <td>#b0b0ff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>TEIGN VALLEY GROUP - MUDSTONE, SILTSTONE AND SANDSTONE</td>
+        <td>1330119_TEVY-MDSS</td>
+        <td>#b0c9b0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>THAMES GROUP - CLAY, SILT, SAND AND GRAVEL</td>
+        <td>1130299_THAM-CLSSG</td>
+        <td>#dbc9db</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>THANET SAND FORMATION - SAND, SILT AND CLAY</td>
+        <td>1130319_TAB-SSCL</td>
+        <td>#db7554</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>TORRIDON GROUP - SANDSTONE AND MUDSTONE</td>
+        <td>2199999_TC-STMD</td>
+        <td>#dbb0b0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>TREMADOC ROCKS (UNDIFFERENTIATED) - MUDSTONE, SILTSTONE AND SANDSTONE</td>
+        <td>1350599_TREM-MDSS</td>
+        <td>#3375c9</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>TRIASSIC ROCKS (UNDIFFERENTIATED) - MUDSTONE, SILTSTONE AND SANDSTONE</td>
+        <td>1239999_TRIA-MDSS</td>
+        <td>#ff9494</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>TRIASSIC ROCKS (UNDIFFERENTIATED) - SANDSTONE AND CONGLOMERATE, INTERBEDDED</td>
+        <td>1239999_TRIA-SCON</td>
+        <td>#ffb0c9</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>TYRONE GROUP - LIMESTONE, MUDSTONE, SANDSTONE AND SILTSTONE, WITH SUBORDINATE CHERT, COAL AND CONGLO</td>
+        <td>1322219_TYRO-SEDS2</td>
+        <td>#75ffc9</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED EXTRUSIVE ROCKS, CAMBRIAN - FELSIC TUFF</td>
+        <td>1369999_UEXE-FTUFF</td>
+        <td>#ffb000</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED EXTRUSIVE ROCKS, CAMBRIAN - MAFIC LAVA</td>
+        <td>1369999_UEXE-MFLAVA</td>
+        <td>#ffdbff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED EXTRUSIVE ROCKS, CARBONIFEROUS - MAFIC LAVA</td>
+        <td>1329999_UEXC-MFLAVA</td>
+        <td>#ffdbff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED EXTRUSIVE ROCKS, CARBONIFEROUS - MAFIC LAVA AND MAFIC TUFF</td>
+        <td>1329999_UEXC-LATM</td>
+        <td>#ffdbff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED EXTRUSIVE ROCKS, CARBONIFEROUS - MAFIC TUFF</td>
+        <td>1329999_UEXC-MFTUF</td>
+        <td>#ffdbff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED EXTRUSIVE ROCKS, DEVONIAN - MAFIC LAVA</td>
+        <td>1339998_UEXD-MFLAVA</td>
+        <td>#ffdbff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED EXTRUSIVE ROCKS, DEVONIAN - MAFIC LAVA AND MAFIC TUFF</td>
+        <td>1339998_UEXD-LATM</td>
+        <td>#ffdbff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED EXTRUSIVE ROCKS, DEVONIAN - MAFIC TUFF</td>
+        <td>1339998_UEXD-MFTUF</td>
+        <td>#ffdbff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED EXTRUSIVE ROCKS, DINANTIAN - FELSIC LAVA AND FELSIC TUFF</td>
+        <td>1322999_UEXCL-LATF</td>
+        <td>#ffb000</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED EXTRUSIVE ROCKS, DINANTIAN - MAFIC LAVA AND MAFIC TUFF</td>
+        <td>1322999_UEXCL-LATM</td>
+        <td>#ffdbff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED EXTRUSIVE ROCKS, NEOPROTEROZOIC - FELSIC LAVA</td>
+        <td>2199999_UEXAZ-FLAVA</td>
+        <td>#ffb000</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED EXTRUSIVE ROCKS, NEOPROTEROZOIC - FELSIC TUFF</td>
+        <td>2199999_UEXAZ-FTUFF</td>
+        <td>#ffb000</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED EXTRUSIVE ROCKS, NEOPROTEROZOIC - LAVA AND TUFF</td>
+        <td>2199999_UEXAZ-LATU</td>
+        <td>#dbb0b0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED EXTRUSIVE ROCKS, NEOPROTEROZOIC - MAFIC LAVA AND MAFIC TUFF</td>
+        <td>2199999_UEXAZ-LATM</td>
+        <td>#ffdbff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED EXTRUSIVE ROCKS, ORDOVICIAN - FELSIC LAVA</td>
+        <td>1359999_UEXO-FLAVA</td>
+        <td>#ffb000</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED EXTRUSIVE ROCKS, ORDOVICIAN - FELSIC LAVA AND FELSIC TUFF</td>
+        <td>1359999_UEXO-LATF</td>
+        <td>#ffb000</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED EXTRUSIVE ROCKS, ORDOVICIAN - FELSIC TUFF</td>
+        <td>1359999_UEXO-FTUFF</td>
+        <td>#ffb000</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED EXTRUSIVE ROCKS, ORDOVICIAN - MAFIC LAVA</td>
+        <td>1359999_UEXO-MFLAVA</td>
+        <td>#ffdbff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED EXTRUSIVE ROCKS, ORDOVICIAN - MAFIC LAVA AND MAFIC TUFF</td>
+        <td>1359999_UEXO-LATM</td>
+        <td>#ffdbff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED EXTRUSIVE ROCKS, ORDOVICIAN - MAFIC TUFF</td>
+        <td>1359999_UEXO-MFTUF</td>
+        <td>#ffdbff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED EXTRUSIVE ROCKS, PALAEOGENE - FELSIC LAVA AND FELSIC TUFF</td>
+        <td>1139999_UEXG-LATF</td>
+        <td>#ffb000</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED EXTRUSIVE ROCKS, PALAEOGENE - MAFIC LAVA AND MAFIC TUFF</td>
+        <td>1139999_UEXG-LATM</td>
+        <td>#ffdbff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED EXTRUSIVE ROCKS, PALAEOPROTEROZOIC - MAFIC LAVA AND MAFIC TUFF</td>
+        <td>2399999_UEXAL-LATM</td>
+        <td>#ffdbff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED EXTRUSIVE ROCKS, PERMIAN - FELSIC LAVA</td>
+        <td>1319999_UEXP-FLAVA</td>
+        <td>#ffb000</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED EXTRUSIVE ROCKS, PERMIAN - MAFIC LAVA</td>
+        <td>1319999_UEXP-MFLAVA</td>
+        <td>#ffdbff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED EXTRUSIVE ROCKS, PERMIAN - MAFIC LAVA AND MAFIC TUFF</td>
+        <td>1319999_UEXP-LATM</td>
+        <td>#ffdbff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED EXTRUSIVE ROCKS, SILESIAN - MAFIC LAVA AND MAFIC TUFF</td>
+        <td>1321999_UEXCU-LATM</td>
+        <td>#ffdbff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED EXTRUSIVE ROCKS, SILURIAN - FELSIC LAVA AND FELSIC TUFF</td>
+        <td>1349999_UEXS-LATF</td>
+        <td>#ffb000</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED EXTRUSIVE ROCKS, SILURIAN - MAFIC LAVA AND MAFIC TUFF</td>
+        <td>1349999_UEXS-LATM</td>
+        <td>#ffdbff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED EXTRUSIVE ROCKS, SILURIAN TO DEVONIAN - FELSIC LAVA AND FELSIC TUFF</td>
+        <td>1349999_UEXSD-LATF</td>
+        <td>#ffb000</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED EXTRUSIVE ROCKS, SILURIAN TO DEVONIAN - MAFIC LAVA AND MAFIC TUFF</td>
+        <td>1349999_UEXSD-LATM</td>
+        <td>#ffdbff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, CAMBRIAN TO ORDOVICIAN - MAFIC IGNEOUS-ROCK</td>
+        <td>1369999_UIIEO-MFIR</td>
+        <td>#75db54</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, CAMBRIAN TO ORDOVICIAN - ULTRAMAFITITE</td>
+        <td>1369999_UIIEO-UMFT</td>
+        <td>#9433ff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, CARBONIFEROUS TO PERMIAN - DOLERITE AND THOLEIITIC BASALT</td>
+        <td>1329999_UIICP-DBAT</td>
+        <td>#ff94b0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, CARBONIFEROUS TO PERMIAN - FELSIC-ROCK</td>
+        <td>1329999_UIICP-FELSR</td>
+        <td>#ff00db</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, CARBONIFEROUS TO PERMIAN - MAFIC IGNEOUS-ROCK</td>
+        <td>1329999_UIICP-MFIR</td>
+        <td>#33b054</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, CARBONIFEROUS TO PERMIAN - PYROCLASTIC-ROCK</td>
+        <td>1329999_UIICP-PYRR</td>
+        <td>#ffff54</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, DEVONIAN - FELSIC-ROCK</td>
+        <td>1339998_UIID-FELSR</td>
+        <td>#ff0000</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, DEVONIAN - MAFIC IGNEOUS-ROCK</td>
+        <td>1339998_UIID-MFIR</td>
+        <td>#75db54</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, DEVONIAN - ULTRAMAFITITE</td>
+        <td>1339998_UIID-UMFT</td>
+        <td>#9433ff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, LATE SILURIAN TO EARLY DEVONIAN - FELSIC-ROCK</td>
+        <td>1340299_UISD-FELSR</td>
+        <td>#ff0000</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, LATE SILURIAN TO EARLY DEVONIAN - MAFIC IGNEOUS-ROCK</td>
+        <td>1340299_UISD-MFIR</td>
+        <td>#54c954</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, LATE SILURIAN TO EARLY DEVONIAN - PYROCLASTIC-ROCK</td>
+        <td>1340299_UISD-PYRR</td>
+        <td>#ffff54</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, LATE SILURIAN TO EARLY DEVONIAN - ULTRAMAFITITE</td>
+        <td>1340299_UISD-UMFT</td>
+        <td>#b054ff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, NEOPROTEROZOIC - FELSIC-ROCK</td>
+        <td>2199999_UIAZ-FELSR</td>
+        <td>#ff0000</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, NEOPROTEROZOIC - MAFIC IGNEOUS-ROCK</td>
+        <td>2199999_UIAZ-MFIR</td>
+        <td>#94ed54</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, NEOPROTEROZOIC - MAFITE</td>
+        <td>2199999_UIAZ-MAFI</td>
+        <td>#dbc9ff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, NEOPROTEROZOIC - ULTRAMAFITITE</td>
+        <td>2199999_UIAZ-UMFT</td>
+        <td>#7500ff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, ORDOVICIAN TO SILURIAN - FELSIC-ROCK</td>
+        <td>1359999_UIIOS-FELSR</td>
+        <td>#ff00b0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, ORDOVICIAN TO SILURIAN - MAFIC IGNEOUS-ROCK</td>
+        <td>1359999_UIIOS-MFIR</td>
+        <td>#75db54</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, ORDOVICIAN TO SILURIAN - SYENITIC-ROCK</td>
+        <td>1359999_UIIOS-SYR</td>
+        <td>#ed7554</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, ORDOVICIAN TO SILURIAN - ULTRAMAFITITE</td>
+        <td>1359999_UIIOS-UMFT</td>
+        <td>#9433ff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, PALAEOGENE - FELSIC-ROCK</td>
+        <td>1139999_UIG-FELSR</td>
+        <td>#ff00ff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, PALAEOGENE - MAFIC IGNEOUS-ROCK</td>
+        <td>1139999_UIG-MFIR</td>
+        <td>#009454</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, PALAEOGENE - PYROCLASTIC-ROCK</td>
+        <td>1139999_UIG-PYRR</td>
+        <td>#ffff54</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, PALAEOGENE - ULTRAMAFITITE</td>
+        <td>1139999_UIG-UMFT</td>
+        <td>#c975ff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, PALAEOPROTEROZOIC - ANORTHOSITE</td>
+        <td>2399999_UIIAL-ANO</td>
+        <td>#00ed94</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, PALAEOPROTEROZOIC - FELSIC-ROCK</td>
+        <td>2399999_UIIAL-FELSR</td>
+        <td>#ff0000</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, PALAEOPROTEROZOIC - MAFIC IGNEOUS-ROCK</td>
+        <td>2399999_UIIAL-MFIR</td>
+        <td>#94ed54</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED METAMORPHIC ROCKS, NEOPROTEROZOIC - HORNBLENDE SCHIST</td>
+        <td>2199999_UMAZ-HBSCH</td>
+        <td>#757533</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED METAMORPHIC ROCKS, NEOPROTEROZOIC - METALIMESTONE</td>
+        <td>2199999_UMAZ-MLMST</td>
+        <td>#ed94ed</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED METAMORPHIC ROCKS, PRE-CALEDONIAN TO CALEDONIAN - GNEISSOSE PSAMMITE AND GNEISSOSE SEMIPELIT</td>
+        <td>3999999_UMPCC-GPSP</td>
+        <td>#00ed94</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNNAMED METASEDIMENTARY ROCKS, NEOPROTEROZOIC - MUDSTONE, SANDSTONE AND CONGLOMERATE</td>
+        <td>2199999_UMSAZ-MDSC</td>
+        <td>#eddbb0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UNST PHYLLITE GROUP - PELITE</td>
+        <td>1359999_UNPH-PEL</td>
+        <td>#b0dbdb</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UPPER CAMBRIAN, INCLUDING TREMADOC - METASEDIMENTARY ROCK</td>
+        <td>1360199_UC-MSDR</td>
+        <td>#ffffb0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UPPER CAMBRIAN, INCLUDING TREMADOC - MUDSTONE, SILTSTONE AND SANDSTONE</td>
+        <td>1360199_UC-MDSS</td>
+        <td>#94edb0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UPPER CAMBRIAN, INCLUDING TREMADOC - SANDSTONE AND CONGLOMERATE, INTERBEDDED</td>
+        <td>1360199_UC-SCON</td>
+        <td>#ed94b0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UPPER CRETACEOUS TO PALAEOGENE ROCKS (UNDIFFERENTIATED) - CONGLOMERATE, SANDSTONE, SILTSTONE AND MUD</td>
+        <td>1210199_PALUC-CSSM</td>
+        <td>#00ffb0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UPPER DEVONIAN ROCKS (UNDIFFERENTIATED) - BRECCIA AND METABRECCIA</td>
+        <td>1330199_UDEV-BRCMBR</td>
+        <td>#54db94</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UPPER DEVONIAN ROCKS (UNDIFFERENTIATED) - MUDSTONE, SILTSTONE AND SANDSTONE</td>
+        <td>1330199_UDEV-MDSS</td>
+        <td>#edb0b0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UPPER DEVONIAN ROCKS (UNDIFFERENTIATED) - SANDSTONE AND CONGLOMERATE, INTERBEDDED</td>
+        <td>1330199_UDEV-SCON</td>
+        <td>#edc9db</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UPPER JURASSIC ROCKS (UNDIFFERENTIATED) - MUDSTONE, SILTSTONE AND SANDSTONE</td>
+        <td>1220199_JURU-MDSS</td>
+        <td>#dbc994</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>UPPER OLD RED SANDSTONE - CONGLOMERATE, SANDSTONE, SILTSTONE AND MUDSTONE</td>
+        <td>1330199_UORS-CSSM</td>
+        <td>#edc9db</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>WARWICKSHIRE GROUP - MUDSTONE, SILTSTONE, SANDSTONE, COAL, IRONSTONE AND FERRICRETE</td>
+        <td>1321239_WAWK-MSCI</td>
+        <td>#edc994</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>WARWICKSHIRE GROUP - SILTSTONE AND SANDSTONE WITH SUBORDINATE MUDSTONE</td>
+        <td>1321239_WAWK-SISDM</td>
+        <td>#c9b094</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>WEALDEN GROUP - MUDSTONE, SILTSTONE AND SANDSTONE</td>
+        <td>1210269_W-MDSS</td>
+        <td>#94c900</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>WEALDEN GROUP - SANDSTONE AND SILTSTONE, INTERBEDDED</td>
+        <td>1210269_W-SDSL</td>
+        <td>#c9ed54</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>WENLOCK ROCKS (UNDIFFERENTIATED) - MUDSTONE, SILTSTONE AND SANDSTONE</td>
+        <td>1340399_WEN-MDSS</td>
+        <td>#c975ff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>WENLOCK ROCKS (UNDIFFERENTIATED) - SANDSTONE AND CONGLOMERATE, INTERBEDDED</td>
+        <td>1340399_WEN-SCON</td>
+        <td>#eddbdb</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>WEST WALTON FORMATION, AMPTHILL CLAY FORMATION AND KIMMERIDGE CLAY FORMATION (UNDIFFERENTIATED) - MU</td>
+        <td>1220139_WWAK-MDSS</td>
+        <td>#edc9db</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>WHITE CHALK SUBGROUP - CHALK</td>
+        <td>1210169_WHCK-CHLK</td>
+        <td>#dbff54</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>YOREDALE GROUP - LIMESTONE WITH SUBORDINATE SANDSTONE AND ARGILLACEOUS ROCKS</td>
+        <td>1322129_YORE-LSSA</td>
+        <td>#94ffed</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>YOREDALE GROUP - LIMESTONE, ARGILLACEOUS ROCKS AND SUBORDINATE SANDSTONE, INTERBEDDED</td>
+        <td>1322129_YORE-LMAS</td>
+        <td>#dbffed</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>YOREDALE GROUP - LIMESTONE, SANDSTONE, SILTSTONE AND MUDSTONE</td>
+        <td>1322129_YORE-LSSM</td>
+        <td>#dbff75</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_BEDROCK_Geology_Polygons</td>
+        <td>ZECHSTEIN GROUP - DOLOMITISED LIMESTONE AND DOLOMITE</td>
+        <td>1310199_ZG-DLDO</td>
+        <td>#b0ffff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_DYKES_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, PALAEOGENE - FELSIC-ROCK</td>
+        <td>1139999_UIG-FELSR</td>
+        <td>#ff00ff</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_DYKES_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, PALAEOGENE - MAFIC IGNEOUS-ROCK</td>
+        <td>1139999_UIG-MFIR</td>
+        <td>#009454</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_DYKES_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, CARBONIFEROUS TO PERMIAN - DOLERITE AND THOLEIITIC BASALT</td>
+        <td>1329999_UIICP-DBAT</td>
+        <td>#ff94b0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_DYKES_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, CARBONIFEROUS TO PERMIAN - FELSIC-ROCK</td>
+        <td>1329999_UIICP-FELSR</td>
+        <td>#ff00db</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_DYKES_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, CARBONIFEROUS TO PERMIAN - MAFIC IGNEOUS-ROCK</td>
+        <td>1329999_UIICP-MFIR</td>
+        <td>#33b054</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_DYKES_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, DEVONIAN - MAFIC IGNEOUS-ROCK</td>
+        <td>1339998_UIID-MFIR</td>
+        <td>#75db54</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_DYKES_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, LATE SILURIAN TO EARLY DEVONIAN - FELSIC-ROCK</td>
+        <td>1340299_UISD-FELSR</td>
+        <td>#ff0000</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_DYKES_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, LATE SILURIAN TO EARLY DEVONIAN - MAFIC IGNEOUS-ROCK</td>
+        <td>1340299_UISD-MFIR</td>
+        <td>#54c954</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_DYKES_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, ORDOVICIAN TO SILURIAN - FELSIC-ROCK</td>
+        <td>1359999_UIIOS-FELSR</td>
+        <td>#ff00b0</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_DYKES_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, ORDOVICIAN TO SILURIAN - MAFIC IGNEOUS-ROCK</td>
+        <td>1359999_UIIOS-MFIR</td>
+        <td>#75db54</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_DYKES_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, CAMBRIAN TO ORDOVICIAN - FELSIC-ROCK</td>
+        <td>1369999_UIIEO-FELSR</td>
+        <td>#ff0000</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_DYKES_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, CAMBRIAN TO ORDOVICIAN - MAFIC IGNEOUS-ROCK</td>
+        <td>1369999_UIIEO-MFIR</td>
+        <td>#75db54</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_DYKES_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, NEOPROTEROZOIC - FELSIC-ROCK</td>
+        <td>2199999_UIAZ-FELSR</td>
+        <td>#ff0000</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_DYKES_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, NEOPROTEROZOIC - MAFIC IGNEOUS-ROCK</td>
+        <td>2199999_UIAZ-MFIR</td>
+        <td>#94ed54</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_DYKES_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, PALAEOPROTEROZOIC - FELSIC-ROCK</td>
+        <td>2399999_UIIAL-FELSR</td>
+        <td>#ff0000</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_DYKES_Geology_Polygons</td>
+        <td>UNNAMED IGNEOUS INTRUSION, PALAEOPROTEROZOIC - MAFIC IGNEOUS-ROCK</td>
+        <td>2399999_UIIAL-MFIR</td>
+        <td>#94ed54</td>
+        <td>fill</td>
+      </tr>
+      <tr>
+        <td>625k_V5_DYKES_Geology_Polygons</td>
+        <td>LEWISIAN COMPLEX - MAFIC GNEISS</td>
+        <td>3999999_L-GNSMF</td>
+        <td>#b033ff</td>
+        <td>fill</td>
+      </tr>
+  </tbody>
+</table></div>
 </div>
-<div class="section" id="burkina-faso">
-<h3>Burkina Faso<a class="headerlink" href="#burkina-faso" title="Permalink to this headline">¶</a></h3>
-<p>Official figures include 306&nbsp;kg for artisanal mining in 2018; 150 kg in 2017; 235 kg in 2016; 302&nbsp;kg in 2015; and 208&nbsp;kg in 2014;. It is believed the actual artisanal production is likely to be higher.</p>
-</div>
-<div class="section" id="burma">
-<h3>Burma<a class="headerlink" href="#burma" title="Permalink to this headline">¶</a></h3>
-<p>the figures shown in the table for 2014 to 2017 are reported and are believed to include artisanal mining.</p>
-</div>
-<div class="section" id="cameroon">
-<h3>Cameroon<a class="headerlink" href="#cameroon" title="Permalink to this headline">¶</a></h3>
-<p>all gold mining is currently small scale or artisanal. Available estimates vary widely, from as low as 500 kg per year to something in the order of 1500 kg or 2000 kg per year.</p>
-</div>
-<div class="section" id="central-african-republic">
-<h3>Central African Republic<a class="headerlink" href="#central-african-republic" title="Permalink to this headline">¶</a></h3>
-<p>artisanal gold mining is known to take place. No reliable estimates are available but it could be in the region of 50-80&nbsp;kg per year. The figures shown are reported and it is assumed these are artisanal but they may not be fully inclusive in every year.</p>
-</div>
-<div class="section" id="columbia">
-<h3>Columbia<a class="headerlink" href="#columbia" title="Permalink to this headline">¶</a></h3>
-<p>Artisanal mining, both legal and illegal, is quite extensive within Columbia. The government is taking steps to improve the licencing of legal artisanal mining and also to crack down on illegal activities. However, it is not clear whether the reported figures for gold production include artisanally mined gold. It is also possible that illegally mined material is brought into or out of the country without being recorded.</p>
-</div>
-<div class="section" id="congo">
-<h3>Congo<a class="headerlink" href="#congo" title="Permalink to this headline">¶</a></h3>
-<p>all gold mining is believed to be small scale or artisanal and it is believed there are more than 200 locations where this occurs. A nominal estimate of 150 kg per year is shown in the table.</p>
-</div>
-<div class="section" id="costa-rica">
-<h3>Costa Rica<a class="headerlink" href="#costa-rica" title="Permalink to this headline">¶</a></h3>
-<p>all gold mining is currently artisanal. The figures in the table are reported by an official source.</p>
-</div>
-<div class="section" id="democratic-republic-of-congo">
-<h3>Democratic Republic of Congo<a class="headerlink" href="#democratic-republic-of-congo" title="Permalink to this headline">¶</a></h3>
-<p>Artisanal mining is quite extensive, the figures shown include estimates for artisanal mining ranging from 4000 to 11000&nbsp;kg per year.</p>
-</div>
-<div class="section" id="equatorial-guinea">
-<h3>Equatorial Guinea<a class="headerlink" href="#equatorial-guinea" title="Permalink to this headline">¶</a></h3>
-<p>Artisanal gold mining is very likely to be taking
-place but no accurate information is available. A nominal estimate of
-200 kg per year is included in the table but it could be more or less
-than this.</p>
-</div>
-<div class="section" id="ethiopia">
-<h3>Ethiopia<a class="headerlink" href="#ethiopia" title="Permalink to this headline">¶</a></h3>
-<p>small scale and artisanal gold mining is significant, but not
-all of it is illegal because some artisanal miners operate under a
-formal license. A proportion of the gold mined from artisanal sources is
-sold to the national bank but illicit sales to non-licensed buyers
-remains widespread. National bank purchases of gold from artisanal
-sources in fiscal year 2014/15 amounted to 5473 kg; in 2015/16 to 4145
-kg and in 2016/17 to 1920 kg. Actual artisanal production could be
-higher.</p>
-</div>
-<div class="section" id="france-french-guiana">
-<h3>France (French Guiana)<a class="headerlink" href="#france-french-guiana" title="Permalink to this headline">¶</a></h3>
-<p>the table includes an estimate of 5000 kg per
-year for artisanal mining which is not included in the official reported
-figures.</p>
-</div>
-<div class="section" id="gabon">
-<h3>Gabon<a class="headerlink" href="#gabon" title="Permalink to this headline">¶</a></h3>
-<p>attempts to regulate artisanal gold mining are being undertaken
-with gold from artisanal miners being purchased by a government agency
-from 2013. The figures in the table include 66 kg for artisanal mining
-in 2014; 55 kg in 2015; 50 kg in 2016 and 40 kg in 2017. Data for 2018
-is all artisanal.</p>
-</div>
-<div class="section" id="ghana">
-<h3>Ghana<a class="headerlink" href="#ghana" title="Permalink to this headline">¶</a></h3>
-<p>gold produced by artisanal mining is purchased by a state-owned
-marketing organisation but official figures of the quantity vary
-depending on the source. They are also reported in publications produced
-by under the Extractive Industry Transparency Initiative (EITI). In the
-table below the following figures are included for artisanal production:
-47,044 kg in 2014; 32,073 kg in 2015; 35,292 kg in 2016; 45,992 kg in
-2017 and 37,324 kg in 2018.</p>
-</div>
-<div class="section" id="guinea">
-<h3>Guinea<a class="headerlink" href="#guinea" title="Permalink to this headline">¶</a></h3>
-<p>the figures in the table include reported figures for artisanal
-mining. However, actual artisanal production may be higher than those
-reported because it is difficult to distinguish the material derived
-from artisanal mining within Guinea from that moved across the border
-from Mali or other countries.</p>
-</div>
-<div class="section" id="ivory-coast">
-<h3>Ivory Coast<a class="headerlink" href="#ivory-coast" title="Permalink to this headline">¶</a></h3>
-<p>efforts are being made within Ivory Coast to rationalise
-artisanal mining as part of the EITI process. Reports suggest that it
-varies considerably from year to year and may range between 1000 kg and
-10&nbsp;000 kg per year. A conservative estimate of 2000 kg has been added to
-reported industrial scale mine output in 2014, 3000 kg in 2015 and 4500
-kg per year for 2016 to 2018.</p>
-</div>
-<div class="section" id="kenya">
-<h3>Kenya<a class="headerlink" href="#kenya" title="Permalink to this headline">¶</a></h3>
-<p>The reported figures shown are believed to include artisanal
-mining but in reality it could be much higher.</p>
-</div>
-<div class="section" id="liberia">
-<h3>Liberia<a class="headerlink" href="#liberia" title="Permalink to this headline">¶</a></h3>
-<p>official figures are believed to include both the industrial
-mine and artisanal production.</p>
-</div>
-<div class="section" id="madagascar">
-<h3>Madagascar<a class="headerlink" href="#madagascar" title="Permalink to this headline">¶</a></h3>
-<p>estimates of artisanal mining are in the order of 100 kg to
-3000&nbsp;kg per year.</p>
-</div>
-<div class="section" id="mali">
-<h3>Mali<a class="headerlink" href="#mali" title="Permalink to this headline">¶</a></h3>
-<p>the figures include an estimate of 5000&nbsp;kg per year for artisanal
-mining for 2014 and 2015 and 6000 kg per year thereafter, but it is
-likely the real figure varies more than this from year to year.</p>
-</div>
-<div class="section" id="panama">
-<h3>Panama<a class="headerlink" href="#panama" title="Permalink to this headline">¶</a></h3>
-<p>artisanal mining is known to occur but no reliable estimates
-are available. A nominal estimate of 100 kg per year has been included.</p>
-</div>
-<div class="section" id="papua-new-guinea">
-<h3>Papua New Guinea<a class="headerlink" href="#papua-new-guinea" title="Permalink to this headline">¶</a></h3>
-<p>Official estimates of “alluvial and small scale” mining are approximately 3500 to 4000 kg per year.</p>
-</div>
-<div class="section" id="rwanda">
-<h3>Rwanda<a class="headerlink" href="#rwanda" title="Permalink to this headline">¶</a></h3>
-<p>it is believed that the reported and estimated figures are
-actually gold that originated in neighbouring countries but is not
-recorded in those countries.</p>
-</div>
-<div class="section" id="south-sudan">
-<h3>South Sudan<a class="headerlink" href="#south-sudan" title="Permalink to this headline">¶</a></h3>
-<p>artisanal mining is known to occur but reliable estimates
-are difficult to obtain. It has been estimated as approximately 200 kg
-per year.</p>
-</div>
-<div class="section" id="tanzania">
-<h3>Tanzania<a class="headerlink" href="#tanzania" title="Permalink to this headline">¶</a></h3>
-<p>Artisanal mining is known to occur and in 2015 and 2016 was
-reported as approximately 30 kg per year.</p>
-</div>
-<div class="section" id="togo">
-<h3>Togo<a class="headerlink" href="#togo" title="Permalink to this headline">¶</a></h3>
-<p>the reported figures are exports of gold which is transiting
-through the country. It is believed the majority of this originates in
-Burkina Faso from artisanal mining but it is not recorded within the
-production figures for that country. Consequently it is recorded here
-for completeness. Some artisanal mining is also believed to occur in
-Togo.</p>
-</div>
-<div class="section" id="venezuela">
-<h3>Venezuela<a class="headerlink" href="#venezuela" title="Permalink to this headline">¶</a></h3>
-<p>artisanal mining is believed to be quite extensive and
-increasing. Estimates of quantities vary widely from less than 1000 kg
-up to 9000 kg per year. The Central Bank aims to purchase all the
-artisanally mined gold, however, actual output is believed to be larger
-than the reported figures and therefore higher estimates have been used.</p>
-</div>
-<div class="section" id="vietnam">
-<h3>Vietnam<a class="headerlink" href="#vietnam" title="Permalink to this headline">¶</a></h3>
-<p>artisanal mining is believed to be taking place at the site of
-a former industrial mine. No information is available to indicate likely
-scale.</p>
+<div class="section" id="faults">
+<h2>Faults<a class="headerlink" href="#faults" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id2">
+<h3>Table<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<table id="faults-table">
+  <tr>
+    <th>Feature Name</th>
+    <th>Feature Description</th>
+    <th>Stroke Colour</th>
+    <th>stroke-width</th>
+    <th>stroke-linejoin</th>
+    <th>stroke-linecap</th>
+    <th>stroke-dasharray</th>
+    <th>href</th>
+    <th>type</th>
+    <th>Format</th>
+    <th>Mark Index</th>
+    <th>Hex Code</th>
+    <th>Name</th>
+    <th>Size</th>
+    <th>DisplacementX</th>
+    <th>DisplacementY</th>
+    <th>Literal6</th>
+    <th>PerpendicularOffset</th>
+  </tr>
+  <tr>
+    <td>625k_V5_FAULT_Geology_Lines</td>
+    <td>Fault at rockhead</td>
+    <td>#000000</td>
+    <td>1</td>
+    <td>mitre</td>
+    <td>butt</td>
+    <td>15 3</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>625k_V5_FAULT_Geology_Lines</td>
+    <td>Thrust Fault; barbs on hanging wall side</td>
+    <td>#000000</td>
+    <td>1</td>
+    <td>mitre</td>
+    <td>butt</td>
+    <td>15 3 15 3</td>
+    <td>ttf://ESRI Default Marker</td>
+    <td>simple</td>
+    <td>ttf</td>
+    <td>35</td>
+    <td>#000000</td>
+    <td>fill</td>
+    <td>9</td>
+    <td>0</td>
+    <td>-1</td>
+    <td>35</td>
+    <td>-3</td>
+  </tr>
+</table></div>
 </div>
 </div>
-<div class="section" id="mine-production-of-gold-kilograms">
-<h2>Mine production of gold kilograms<a class="headerlink" href="#mine-production-of-gold-kilograms" title="Permalink to this headline">¶</a></h2>
-<table border="1" class="docutils">
-<colgroup>
-<col width="34%" />
-<col width="13%" />
-<col width="13%" />
-<col width="13%" />
-<col width="13%" />
-<col width="13%" />
-</colgroup>
-<tbody valign="top">
-<tr class="row-odd"><td>Country</td>
-<td>2014</td>
-<td>2015</td>
-<td>2016</td>
-<td>2017</td>
-<td>2018</td>
-</tr>
-<tr class="row-even"><td>Armenia</td>
-<td>2 814</td>
-<td>3 640</td>
-<td><ul class="first last simple">
-<li>3 730</li>
-</ul>
-</td>
-<td>4 270</td>
-<td>4 908</td>
-</tr>
-<tr class="row-odd"><td>Azerbaijan</td>
-<td>1 872</td>
-<td>2 229</td>
-<td>1 895</td>
-<td>3 667</td>
-<td>3 476</td>
-</tr>
-<tr class="row-even"><td>Bulgaria</td>
-<td>7 899</td>
-<td>7 914</td>
-<td>7 918</td>
-<td>8 682</td>
-<td>8 995</td>
-</tr>
-<tr class="row-odd"><td>Cyprus</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-<td>48</td>
-<td>47</td>
-</tr>
-<tr class="row-even"><td>Finland</td>
-<td>8 085</td>
-<td>8 342</td>
-<td>8 865</td>
-<td>9 102</td>
-<td>8 732</td>
-</tr>
-<tr class="row-odd"><td>Georgia</td>
-<td><ul class="first last simple">
-<li>2 300</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>3 100</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>3 600</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>3 000</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>3 000</li>
-</ul>
-</td>
-</tr>
-<tr class="row-even"><td>Greece</td>
-<td>552</td>
-<td>510</td>
-<td>86</td>
-<td>575</td>
-<td>1 454</td>
-</tr>
-<tr class="row-odd"><td>North Macedonia</td>
-<td>480</td>
-<td>494</td>
-<td>664</td>
-<td>972</td>
-<td>767</td>
-</tr>
-<tr class="row-even"><td>Poland</td>
-<td>226</td>
-<td>431</td>
-<td>402</td>
-<td>572</td>
-<td>523</td>
-</tr>
-<tr class="row-odd"><td>Romania</td>
-<td><ul class="first last simple">
-<li>500</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>500</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>500</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>500</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>500</li>
-</ul>
-</td>
-</tr>
-<tr class="row-even"><td>Russia</td>
-<td>249 100</td>
-<td>256 500</td>
-<td>253 200</td>
-<td>270 300</td>
-<td>279 900</td>
-</tr>
-<tr class="row-odd"><td>Serbia  (a)</td>
-<td>1 310</td>
-<td>1 186</td>
-<td>805</td>
-<td>1 199</td>
-<td>839</td>
-</tr>
-<tr class="row-even"><td>Slovakia</td>
-<td>582</td>
-<td>603</td>
-<td>466</td>
-<td>447</td>
-<td>515</td>
-</tr>
-<tr class="row-odd"><td>Spain</td>
-<td>1 958</td>
-<td>2 128</td>
-<td>1 291</td>
-<td>1 605</td>
-<td>1 991</td>
-</tr>
-<tr class="row-even"><td>Sweden</td>
-<td>6 849</td>
-<td>6 028</td>
-<td>6 463</td>
-<td>7 858</td>
-<td>7 866</td>
-</tr>
-<tr class="row-odd"><td>Turkey</td>
-<td>31 260</td>
-<td>27 800</td>
-<td>24 030</td>
-<td>23 090</td>
-<td>27 100</td>
-</tr>
-<tr class="row-even"><td>United Kingdom</td>
-<td>—</td>
-<td>—</td>
-<td><ol class="first last loweralpha simple" start="2">
-<li>6</li>
-</ol>
-</td>
-<td>—</td>
-<td>—</td>
-</tr>
-<tr class="row-odd"><td>&#160;</td>
-<td>&#160;</td>
-<td>&#160;</td>
-<td>&#160;</td>
-<td>&#160;</td>
-<td>&#160;</td>
-</tr>
-<tr class="row-even"><td>Algeria</td>
-<td>85</td>
-<td>106</td>
-<td>102</td>
-<td>137</td>
-<td><ul class="first last simple">
-<li>250</li>
-</ul>
-</td>
-</tr>
-<tr class="row-odd"><td>Benin</td>
-<td><ul class="first last simple">
-<li>30</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>30</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>30</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>30</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>30</li>
-</ul>
-</td>
-</tr>
-<tr class="row-even"><td>Botswana</td>
-<td>958</td>
-<td>757</td>
-<td>833</td>
-<td>913</td>
-<td>1 105</td>
-</tr>
-<tr class="row-odd"><td>Burkina Faso</td>
-<td>36 320</td>
-<td>36 540</td>
-<td>38 520</td>
-<td>46 436</td>
-<td>53 234</td>
-</tr>
-<tr class="row-even"><td>Burundi</td>
-<td>650</td>
-<td>549</td>
-<td>396</td>
-<td>953</td>
-<td>576</td>
-</tr>
-<tr class="row-odd"><td>Cameroon</td>
-<td><ul class="first last simple">
-<li>1 000</li>
-</ul>
-</td>
-<td>795</td>
-<td>542</td>
-<td>689</td>
-<td><ul class="first last simple">
-<li>700</li>
-</ul>
-</td>
-</tr>
-<tr class="row-even"><td>Central African Republic</td>
-<td>7</td>
-<td>15</td>
-<td>33</td>
-<td>118</td>
-<td>142</td>
-</tr>
-<tr class="row-odd"><td>Chad</td>
-<td><ul class="first last simple">
-<li>10</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>10</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>10</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>10</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>10</li>
-</ul>
-</td>
-</tr>
-<tr class="row-even"><td>Congo</td>
-<td><ul class="first last simple">
-<li>150</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>150</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>150</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>150</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>150</li>
-</ul>
-</td>
-</tr>
-<tr class="row-odd"><td>Congo, Democratic Republic</td>
-<td><ul class="first last simple">
-<li>36 600</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>38 000</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>37 100</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>37 100</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>43 800</li>
-</ul>
-</td>
-</tr>
-<tr class="row-even"><td>Egypt</td>
-<td>11 734</td>
-<td>13 657</td>
-<td>17 139</td>
-<td>16 941</td>
-<td>14 694</td>
-</tr>
-<tr class="row-odd"><td>Equatorial Guinea</td>
-<td><ul class="first last simple">
-<li>200</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>200</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>200</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>200</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>200</li>
-</ul>
-</td>
-</tr>
-<tr class="row-even"><td>Eritrea</td>
-<td>840</td>
-<td>753</td>
-<td><ul class="first last simple">
-<li>1 400</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>2 700</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>3 700</li>
-</ul>
-</td>
-</tr>
-<tr class="row-odd"><td>Eswatini (Swaziland)</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-<td>12</td>
-</tr>
-<tr class="row-even"><td>Ethiopia  (c)</td>
-<td>10 340</td>
-<td>9 370</td>
-<td>7 467</td>
-<td>4 704</td>
-<td>3 495</td>
-</tr>
-<tr class="row-odd"><td>Gabon</td>
-<td><ul class="first last simple">
-<li>1 078</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>1 356</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>1 070</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>600</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>100</li>
-</ul>
-</td>
-</tr>
-<tr class="row-even"><td>Ghana</td>
-<td>137 861</td>
-<td>112 402</td>
-<td>114 488</td>
-<td>133 303</td>
-<td>149 067</td>
-</tr>
-<tr class="row-odd"><td>Guinea</td>
-<td>23 465</td>
-<td>21 464</td>
-<td>29 192</td>
-<td>46 845</td>
-<td>25 823</td>
-</tr>
-<tr class="row-even"><td>Ivory Coast</td>
-<td><ul class="first last simple">
-<li>19 000</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>23 200</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>25 100</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>25 200</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>24 500</li>
-</ul>
-</td>
-</tr>
-<tr class="row-odd"><td>Kenya</td>
-<td>200</td>
-<td>300</td>
-<td>200</td>
-<td>503</td>
-<td>472</td>
-</tr>
-<tr class="row-even"><td>Liberia</td>
-<td>620</td>
-<td>828</td>
-<td>4 704</td>
-<td>6 071</td>
-<td>7 096</td>
-</tr>
-<tr class="row-odd"><td>Madagascar</td>
-<td><ul class="first last simple">
-<li>100</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>300</li>
-</ul>
-</td>
-<td>586</td>
-<td>2 833</td>
-<td><ol class="first last loweralpha simple" start="4">
-<li>3 000</li>
-</ol>
-</td>
-</tr>
-<tr class="row-even"><td>Mali</td>
-<td><ul class="first last simple">
-<li>45 400</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>46 500</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>48 200</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>51 500</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>61 000</li>
-</ul>
-</td>
-</tr>
-<tr class="row-odd"><td>Mauritania</td>
-<td>9 625</td>
-<td>8 804</td>
-<td>7 122</td>
-<td>9 096</td>
-<td>9 235</td>
-</tr>
-<tr class="row-even"><td>Morocco  (a)</td>
-<td>377</td>
-<td>448</td>
-<td>352</td>
-<td>220</td>
-<td>160</td>
-</tr>
-<tr class="row-odd"><td>Mozambique</td>
-<td>197</td>
-<td>242</td>
-<td>201</td>
-<td>166</td>
-<td>507</td>
-</tr>
-<tr class="row-even"><td>Namibia</td>
-<td>4 553</td>
-<td>6 285</td>
-<td>6 756</td>
-<td>7 469</td>
-<td>6 632</td>
-</tr>
-<tr class="row-odd"><td>Niger</td>
-<td>732</td>
-<td>1 220</td>
-<td>999</td>
-<td>914</td>
-<td>6 207</td>
-</tr>
-<tr class="row-even"><td>Nigeria</td>
-<td><ul class="first last simple">
-<li>6 300</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>6 300</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>6 300</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>6 300</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>10 000</li>
-</ul>
-</td>
-</tr>
-<tr class="row-odd"><td>Rwanda</td>
-<td>319</td>
-<td>336</td>
-<td><ul class="first last simple">
-<li>300</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>300</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>300</li>
-</ul>
-</td>
-</tr>
-<tr class="row-even"><td>Senegal</td>
-<td>6 588</td>
-<td>5 670</td>
-<td>6 741</td>
-<td>7 255</td>
-<td>12 509</td>
-</tr>
-<tr class="row-odd"><td>Sierra Leone</td>
-<td>43</td>
-<td>106</td>
-<td>188</td>
-<td>142</td>
-<td>464</td>
-</tr>
-<tr class="row-even"><td>South Africa</td>
-<td>151 622</td>
-<td>144 515</td>
-<td>142 077</td>
-<td>136 833</td>
-<td>117 150</td>
-</tr>
-<tr class="row-odd"><td>South Sudan</td>
-<td><ul class="first last simple">
-<li>200</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>200</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>200</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>200</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>200</li>
-</ul>
-</td>
-</tr>
-<tr class="row-even"><td>Sudan</td>
-<td>73 300</td>
-<td>82 400</td>
-<td>93 400</td>
-<td>107 300</td>
-<td>93 600</td>
-</tr>
-<tr class="row-odd"><td>Tanzania</td>
-<td>40 481</td>
-<td>43 293</td>
-<td>45 155</td>
-<td>43 489</td>
-<td>39 304</td>
-</tr>
-<tr class="row-even"><td>Togo  (d)</td>
-<td>20 583</td>
-<td>15 568</td>
-<td><ul class="first last simple">
-<li>14 000</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>20 000</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>10 000</li>
-</ul>
-</td>
-</tr>
-<tr class="row-odd"><td>Uganda</td>
-<td>24</td>
-<td>13</td>
-<td>11</td>
-<td>4</td>
-<td><ul class="first last simple">
-<li>4</li>
-</ul>
-</td>
-</tr>
-<tr class="row-even"><td>Zambia  (e)</td>
-<td>4 803</td>
-<td>4 238</td>
-<td>4 610</td>
-<td>4 373</td>
-<td>4 581</td>
-</tr>
-<tr class="row-odd"><td>Zimbabwe</td>
-<td>15 386</td>
-<td>20 023</td>
-<td>22 747</td>
-<td>23 929</td>
-<td>35 054</td>
-</tr>
-<tr class="row-even"><td>&#160;</td>
-<td>&#160;</td>
-<td>&#160;</td>
-<td>&#160;</td>
-<td>&#160;</td>
-<td>&#160;</td>
-</tr>
-<tr class="row-odd"><td>Canada</td>
-<td>152 460</td>
-<td>162 504</td>
-<td>163 888</td>
-<td>171 111</td>
-<td>184 066</td>
-</tr>
-<tr class="row-even"><td>Costa Rica</td>
-<td>1 350</td>
-<td>950</td>
-<td>750</td>
-<td>4 255</td>
-<td>3 699</td>
-</tr>
-<tr class="row-odd"><td>Dominican Republic</td>
-<td>36 085</td>
-<td>31 134</td>
-<td>37 932</td>
-<td>35 242</td>
-<td>31 633</td>
-</tr>
-<tr class="row-even"><td>Guatemala</td>
-<td>6 142</td>
-<td>5 610</td>
-<td>3 910</td>
-<td>1 647</td>
-<td>—</td>
-</tr>
-<tr class="row-odd"><td>Honduras</td>
-<td>2 839</td>
-<td>2 736</td>
-<td>2 607</td>
-<td>2 596</td>
-<td>2 148</td>
-</tr>
-<tr class="row-even"><td>Mexico</td>
-<td>117 771</td>
-<td>134 759</td>
-<td>132 413</td>
-<td>126 820</td>
-<td>118 359</td>
-</tr>
-<tr class="row-odd"><td>Nicaragua</td>
-<td>8 237</td>
-<td>7 612</td>
-<td>8 391</td>
-<td>7 367</td>
-<td>7 703</td>
-</tr>
-<tr class="row-even"><td>Panama</td>
-<td><ul class="first last simple">
-<li>100</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>100</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>100</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>100</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>100</li>
-</ul>
-</td>
-</tr>
-<tr class="row-odd"><td>USA</td>
-<td>210 077</td>
-<td>213 808</td>
-<td>222 211</td>
-<td>236 778</td>
-<td>211 000</td>
-</tr>
-<tr class="row-even"><td>&#160;</td>
-<td>&#160;</td>
-<td>&#160;</td>
-<td>&#160;</td>
-<td>&#160;</td>
-<td>&#160;</td>
-</tr>
-<tr class="row-odd"><td>Argentina</td>
-<td>60 170</td>
-<td>62 673</td>
-<td>56 017</td>
-<td>60 177</td>
-<td>59 818</td>
-</tr>
-<tr class="row-even"><td>Bolivia</td>
-<td>20 296</td>
-<td>19 770</td>
-<td>22 545</td>
-<td>29 524</td>
-<td>29 976</td>
-</tr>
-<tr class="row-odd"><td>Brazil</td>
-<td>81 038</td>
-<td>83 124</td>
-<td>93 921</td>
-<td>79 717</td>
-<td>97 100</td>
-</tr>
-<tr class="row-even"><td>Chile</td>
-<td>46 031</td>
-<td>42 501</td>
-<td>46 333</td>
-<td>37 911</td>
-<td>37 066</td>
-</tr>
-<tr class="row-odd"><td>Colombia</td>
-<td>57 896</td>
-<td>59 638</td>
-<td>63 157</td>
-<td>43 128</td>
-<td>35 560</td>
-</tr>
-<tr class="row-even"><td>Ecuador</td>
-<td>7 322</td>
-<td>7 723</td>
-<td>6 761</td>
-<td>6 368</td>
-<td>8 212</td>
-</tr>
-<tr class="row-odd"><td>France (French Guiana)</td>
-<td><ul class="first last simple">
-<li>6 830</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>6 460</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>6 100</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>6 300</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>6 200</li>
-</ul>
-</td>
-</tr>
-<tr class="row-even"><td>Guyana</td>
-<td>12 053</td>
-<td>14 029</td>
-<td>22 167</td>
-<td>20 334</td>
-<td>19 069</td>
-</tr>
-<tr class="row-odd"><td>Peru</td>
-<td>140 090</td>
-<td>146 823</td>
-<td>153 006</td>
-<td>151 964</td>
-<td>142 643</td>
-</tr>
-<tr class="row-even"><td>Suriname</td>
-<td>10 641</td>
-<td>9 396</td>
-<td>12 926</td>
-<td>25 844</td>
-<td>26 002</td>
-</tr>
-<tr class="row-odd"><td>Uruguay  (f)</td>
-<td>1 715</td>
-<td>1 480</td>
-<td>993</td>
-<td>1 062</td>
-<td>465</td>
-</tr>
-<tr class="row-even"><td>Venezuela</td>
-<td><ul class="first last simple">
-<li>5 000</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>5 000</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>5 000</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>8 000</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>9 000</li>
-</ul>
-</td>
-</tr>
-<tr class="row-odd"><td>&#160;</td>
-<td>&#160;</td>
-<td>&#160;</td>
-<td>&#160;</td>
-<td>&#160;</td>
-<td>&#160;</td>
-</tr>
-<tr class="row-even"><td>Burma  (g)</td>
-<td>1 312</td>
-<td>1 692</td>
-<td>1 888</td>
-<td>1 620</td>
-<td><ul class="first last simple">
-<li>500</li>
-</ul>
-</td>
-</tr>
-<tr class="row-odd"><td>China  (a)</td>
-<td>451 799</td>
-<td>450 053</td>
-<td>453 490</td>
-<td>426 142</td>
-<td>401 119</td>
-</tr>
-<tr class="row-even"><td>India  (g)</td>
-<td>1 441</td>
-<td>1 323</td>
-<td>1 595</td>
-<td>1 648</td>
-<td><ul class="first last simple">
-<li>1 500</li>
-</ul>
-</td>
-</tr>
-<tr class="row-odd"><td>Indonesia</td>
-<td>69 023</td>
-<td>92 171</td>
-<td>80 868</td>
-<td>99 030</td>
-<td>135 250</td>
-</tr>
-<tr class="row-even"><td>Iran  (h)</td>
-<td>1 760</td>
-<td>2 358</td>
-<td>4 537</td>
-<td>7 100</td>
-<td><ul class="first last simple">
-<li>7 000</li>
-</ul>
-</td>
-</tr>
-<tr class="row-odd"><td>Japan</td>
-<td>7 114</td>
-<td>7 699</td>
-<td>6 455</td>
-<td>6 369</td>
-<td>6 453</td>
-</tr>
-<tr class="row-even"><td>Kazakhstan</td>
-<td>50 339</td>
-<td>63 614</td>
-<td>74 737</td>
-<td>85 339</td>
-<td>100 288</td>
-</tr>
-<tr class="row-odd"><td>Korea (Rep. of)</td>
-<td>284</td>
-<td>258</td>
-<td>205</td>
-<td>283</td>
-<td>239</td>
-</tr>
-<tr class="row-even"><td>Korea, Dem. P.R. of</td>
-<td><ul class="first last simple">
-<li>10 000</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>10 000</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>10 000</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>10 000</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>10 000</li>
-</ul>
-</td>
-</tr>
-<tr class="row-odd"><td>Kyrgyzstan</td>
-<td>18 000</td>
-<td>17 600</td>
-<td>21 000</td>
-<td>29 100</td>
-<td>19 000</td>
-</tr>
-<tr class="row-even"><td>Laos</td>
-<td>5 265</td>
-<td>6 893</td>
-<td>6 728</td>
-<td>5 987</td>
-<td>5 577</td>
-</tr>
-<tr class="row-odd"><td>Malaysia</td>
-<td>4 308</td>
-<td>4 732</td>
-<td>2 249</td>
-<td>2 124</td>
-<td>2 978</td>
-</tr>
-<tr class="row-even"><td>Mongolia</td>
-<td>19 959</td>
-<td>20 828</td>
-<td>9 331</td>
-<td>19 849</td>
-<td>20 655</td>
-</tr>
-<tr class="row-odd"><td>Philippines</td>
-<td>18 423</td>
-<td>21 314</td>
-<td>23 053</td>
-<td>22 749</td>
-<td>20 765</td>
-</tr>
-<tr class="row-even"><td>Saudi Arabia</td>
-<td>4 789</td>
-<td>5 089</td>
-<td>7 010</td>
-<td>10 333</td>
-<td>11 831</td>
-</tr>
-<tr class="row-odd"><td>Taiwan</td>
-<td>5</td>
-<td>2</td>
-<td>—</td>
-<td>4</td>
-<td>4</td>
-</tr>
-<tr class="row-even"><td>Tajikistan</td>
-<td>3 436</td>
-<td><ul class="first last simple">
-<li>4 400</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>5 000</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>5 500</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>6 400</li>
-</ul>
-</td>
-</tr>
-<tr class="row-odd"><td>Thailand</td>
-<td>4 576</td>
-<td>3 305</td>
-<td>4 250</td>
-<td>—</td>
-<td>—</td>
-</tr>
-<tr class="row-even"><td>Uzbekistan</td>
-<td><ul class="first last simple">
-<li>100 000</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>100 000</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>100 000</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>90 000</li>
-</ul>
-</td>
-<td><ul class="first last simple">
-<li>90 000</li>
-</ul>
-</td>
-</tr>
-<tr class="row-odd"><td>Vietnam</td>
-<td>728</td>
-<td>579</td>
-<td>604</td>
-<td>557</td>
-<td><ul class="first last simple">
-<li>600</li>
-</ul>
-</td>
-</tr>
-<tr class="row-even"><td>&#160;</td>
-<td>&#160;</td>
-<td>&#160;</td>
-<td>&#160;</td>
-<td>&#160;</td>
-<td>&#160;</td>
-</tr>
-<tr class="row-odd"><td>Australia</td>
-<td>271 856</td>
-<td>277 372</td>
-<td>290 767</td>
-<td>292 022</td>
-<td>313 028</td>
-</tr>
-<tr class="row-even"><td>Fiji</td>
-<td>1 188</td>
-<td>1 368</td>
-<td>1 500</td>
-<td>1 425</td>
-<td>1 281</td>
-</tr>
-<tr class="row-odd"><td>New Zealand</td>
-<td>11 989</td>
-<td>12 687</td>
-<td>9 866</td>
-<td>10 288</td>
-<td>10 045</td>
-</tr>
-<tr class="row-even"><td>Papua New Guinea</td>
-<td>56 148</td>
-<td>57 640</td>
-<td>61 952</td>
-<td>65 246</td>
-<td>67 562</td>
-</tr>
-<tr class="row-odd"><td>Solomon Islands</td>
-<td>603</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-</tr>
-<tr class="row-even"><td>&#160;</td>
-<td>&#160;</td>
-<td>&#160;</td>
-<td>&#160;</td>
-<td>&#160;</td>
-<td>&#160;</td>
-</tr>
-<tr class="row-odd"><td>World total</td>
-<td>3 080 000</td>
-<td>3 150 000</td>
-<td>3 230 000</td>
-<td>3 330 000</td>
-<td>3 350 000</td>
-</tr>
-</tbody>
-</table>
-<p>Note(s)</p>
-<p>(1) In several countries substantial amounts of gold produced in small
-and/or artisanal operations are not recorded in the official statistics.
-Estimates have been added where possible but these have varying degrees
-of uncertainty.</p>
-<p>(2) In addition to the countries listed Oman produces less than 100kg
-gold per year.</p>
-<p>(3) In addition to the countries listed, Cambodia, El Salvador, Haiti,
-Malawi, Pakistan, Paraguay and Portugal may produce gold.</p>
-<ol class="loweralpha simple">
-<li>Metal production</li>
-<li>Sales</li>
-<li>Years ended 7 July of that stated</li>
-<li>Exports</li>
-<li>Contained in blister copper, refinery muds and electrolytic copper</li>
-<li>Year ended 30 November of the year stated</li>
-<li>Years ended 31 March following that stated</li>
-<li>Years ended 20 March following that stated</li>
-</ol>
+<div class="section" id="bgs-50k-colours">
+<h1>BGS 50k Colours<a class="headerlink" href="#bgs-50k-colours" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="id3">
+<h2>SLD Files<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<p>SLD files are available to download:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Superficial</li>
+<li>Bedrock</li>
+<li>Dykes</li>
+<li>Faults</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="superficial">
+<h2>Superficial<a class="headerlink" href="#superficial" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id4">
+<h3>Table<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+</div>
+<div class="section" id="bgs-25k-colours">
+<h1>BGS 25k Colours<a class="headerlink" href="#bgs-25k-colours" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="id5">
+<h2>SLD Files<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<p>SLD files are available to download:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Superficial</li>
+<li>Bedrock</li>
+<li>Dykes</li>
+<li>Faults</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="id6">
+<h2>Superficial<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id7">
+<h3>Table<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+</div>
+</div>
+</div>
+<div class="section" id="bgs-10k-colours">
+<h1>BGS 10k Colours<a class="headerlink" href="#bgs-10k-colours" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="id8">
+<h2>SLD Files<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h2>
+<p>SLD files are available to download:</p>
+<blockquote>
+<div><ul class="simple">
+<li>Superficial</li>
+<li>Bedrock</li>
+<li>Dykes</li>
+<li>Faults</li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="id9">
+<h2>Superficial<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id10">
+<h3>Table<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+</div>
 </div>
 </div>
 
@@ -2181,8 +2482,6 @@ Malawi, Pakistan, Paraguay and Portugal may produce gold.</p>
           <footer>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="appendix.html" class="btn btn-neutral float-right" title="Appendix 1" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="title.html" class="btn btn-neutral float-left" title="Explanatory Notes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

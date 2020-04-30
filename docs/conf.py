@@ -144,7 +144,7 @@ html_style = 'css/bgstheme.css'
 # or fully qualified paths (eg. https://...)
 
 html_css_files = [
-    'css/tabulator.min.css',
+    'css/tabulator_midnight.min.css',
 ]
 
 
